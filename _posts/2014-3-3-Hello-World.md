@@ -3,7 +3,8 @@ layout: post
 title: You're up and running!
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Hi, I am Aman Madaan. I am Software Engineer at Visa Inc. working on the next generation segmentation platform.
+Links in the footer constitute a decent summary of what I have been upto, please feel free to look around.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
