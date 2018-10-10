@@ -7,7 +7,7 @@
 - name: "Numerical Relation Extraction"
   year: "2015"
   url: "numrel"
-  about: "MTP"
+  about: ""
   tags: ["nlp", "ml"]
 
 - name: "SMS Translation"
@@ -15,3 +15,25 @@
   url: "xlate"
   year: "2014"
   tags: ["nlp", "ml", "translation"]
+
+- name: "Trends in Enterpreneurship"
+  about: "We used datasets"
+ 
+- name: "Moviesim"
+  about: "Movie simulator"
+  url: "moviesim"
+  tags: ["nlp", "ml"]
+
+- name: "B.Tech. Project"
+  about: "Don't let resources go waste"
+  tags: ["systems", "cloud"]
+  url: ""
+
+- name: "Delic"
+  about: "Demystifying the license"
+  tags: ["nlp"]
+
+- name: "Occurrence Statistics Of Entities on the Web"
+  about: 
+
+
