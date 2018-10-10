@@ -1,0 +1,17 @@
+- name: "Codeplay"
+  year: "2012"
+  about: "An android game based on headfake"
+  url: "codeplay"
+  tags: ["android"]
+
+- name: "Numerical Relation Extraction"
+  year: "2015"
+  url: "numrel"
+  about: "MTP"
+  tags: ["nlp", "ml"]
+
+- name: "SMS Translation"
+  about: "Translate SMS English to hindi"
+  url: "xlate"
+  year: "2014"
+  tags: ["nlp", "ml", "translation"]
