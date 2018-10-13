@@ -1,39 +1,54 @@
 - name: "Codeplay"
   year: "2012"
-  about: "An android game based on headfake"
+  about: "An Android game that helps children in learning how to program while having fun. The game won a countrywide competition organized by TCS in 2012, Mobeel, with over 258 teams."
   url: "codeplay"
   tags: ["android"]
 
 - name: "Numerical Relation Extraction"
   year: "2015"
   url: "numrel"
-  about: ""
+  about: "To harness the Web for numerical relations, where relations are 3-tuples linking an entity to a number, like Co2 emission of India, Average age of Camel, etc."
   tags: ["nlp", "ml"]
 
-- name: "SMS Translation"
-  about: "Translate SMS English to hindi"
-  url: "xlate"
+- name: "English SMS to Hindi Translation"
+  about: 'Translator that takes English text written in SMS style abbreviated form to Hindi. For example, "hw r u?" is translated to “आप कैसे हैं?"'
+  url: "smsxlate"
   year: "2014"
   tags: ["nlp", "ml", "translation"]
 
 - name: "Trends in Enterpreneurship"
-  about: "We used datasets"
- 
-- name: "Moviesim"
-  about: "Movie simulator"
+  about: "How has Entrepreneurship as a concept evolved over the last few years? What's the typical demographics of an entrepreneur and where are they located?"
+  tags: ["analytics"]
+  url: "enttrends"
+
+- name: "Technical Reviewer: Mastering Machine Learning with scikit-learn"
+  about: 'As one of the technical reviewers, I was responsible for reviewing code and content for a book aimed at introducing machine learning using scikit-learn. I was offered this opportunity during a very busy semester while I was at IITB, but undertaking it turned out to be a good decision; it helped my ML as well as technical writing skills. <a href="https://www.amazon.com/Mastering-Machine-Learning-With-scikit-learn/dp/1783988363">Amazon link to the book</a>' 
+  tags: ["ml"]
+
+- name: "MovieSim"
+  about: "Given a movie, recommend other movies that have <i>similar plots.</i>"
   url: "moviesim"
   tags: ["nlp", "ml"]
 
-- name: "B.Tech. Project"
-  about: "Don't let resources go waste"
+- name: "Distributed Compilation as a Service"
+  about: "To build a system that can provide the idle CPU time of the machines in a computer lab as a service to the users."
   tags: ["systems", "cloud"]
-  url: ""
+  year: 2013
+  url: "distcompile"
 
 - name: "Delic"
-  about: "Demystifying the license"
+  about: 'Find out all the clauses in a given piece of license that the end user must <i>absolutely know</i> before they click on <b>I Agree</b>. The project won <a href="https://angelhack.com/">AngelHack</a> Mumbai Hackathon 2014. My team also got us accepted to their incubator with an initial funding, but we decided to focus on our degrees at that point in time.'
   tags: ["nlp"]
 
 - name: "Occurrence Statistics Of Entities on the Web"
-  about: 
+  about: "To estimate the ratio of Entities (People, Organization, etc.) in a given text corpus using maximum mean discrepancy."
+  url: "occurrencestats"
+  year: 2014
+  tags: ["nlp"]
 
+- name: "Inline implementation of End-to-End memory networks"
+  about: 'An inline implementation of the <a href="https://arxiv.org/abs/1503.08895">end to end memory networks</a>.'
+  url: "inlineimpl"
+  year: 2017
+  tags: ["nlp"]
 
