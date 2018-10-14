@@ -3,11 +3,14 @@
   url: "inlineimpl"
   year: 2017
   tags: ["nlp"]
+  code: "https://github.com/madaan/pe/blob/master/babi-memn2n-withpaper.ipynb"
 
-- name: "Numerical Relation Extraction"
-  year: "2015"
-  url: "numrel"
+- name: "Numerical Relation Extraction with Minimal Supervision"
+  year: 2015
+  url: "/projects/numrel"
   about: "To harness the Web for numerical relations, where relations are 3-tuples linking an entity to a number, like Co2 emission of India, Average age of Camel, etc."
+  code: "https://github.com/NEO-IE"
+  report: "https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12486"
   tags: ["nlp", "ml"]
 
 - name: "Trends in Enterpreneurship"
@@ -30,21 +33,26 @@
   tags: ["convex-optimization"]
   url: "cvxdistantsup"
 
-- name: "English SMS to Hindi Translation"
-  about: 'Translator that takes English text written in SMS style abbreviated form to Hindi. For example, "hw r u?" is translated to “आप कैसे हैं?"'
-  url: "smsxlate"
-  year: "2014"
-  tags: ["nlp", "ml"]
-
-
 - name: "Technical Reviewer: Mastering Machine Learning with scikit-learn"
   about: 'As one of the technical reviewers, I was responsible for reviewing code and content for a book aimed at introducing machine learning using scikit-learn. I was offered this opportunity during a very busy semester while I was at IITB, but undertaking it turned out to be a good decision; it helped my ML as well as technical writing skills. <a href="https://www.amazon.com/Mastering-Machine-Learning-With-scikit-learn/dp/1783988363">Amazon link to the book</a>' 
   tags: ["ml"]
+  year: 2015
+
+- name: "English SMS to Hindi Translation"
+  about: 'Translator that takes English text written in SMS style abbreviated form to Hindi. For example, "hw r u?" is translated to “आप कैसे हैं?"'
+  url: "/projects/smsxlate"
+  year: 2014
+  tags: ["nlp", "ml"]
+  report: "https://madaan.github.io/res/presentations/smsxlate.pdf"
+  
+
 
 - name: "MovieSim"
   about: "Given a movie, recommend other movies that have <i>similar plots.</i>"
   url: "moviesim"
   tags: ["nlp", "ml"]
+  year: 2014
+  report: "https://madaan.github.io/res/papers/moviesim.pdf"
 
 - name: "Distributed Compilation as a Service"
   about: "To build a system that can provide the idle CPU time of the machines in a computer lab as a service to the users."
@@ -55,12 +63,14 @@
 - name: "Delic"
   about: 'Find out all the clauses in a given piece of license that the end user must <i>absolutely know</i> before they click on <b>I Agree</b>. The project won <a href="https://angelhack.com/">AngelHack</a> Mumbai Hackathon 2014. My team also got us accepted to their incubator with an initial funding, but we decided to focus on our degrees at that point in time. Checkout the <a href="http://madaan.github.io/delic/">Delic project page</a> which includes pointers to the code.'
   tags: ["nlp"]
+  year: 2014
 
 - name: "Occurrence Statistics Of Entities on the Web"
   about: "To estimate the ratio of Entities (People, Organization, etc.) in a given text corpus using maximum mean discrepancy."
   url: "occurrencestats"
   year: 2014
   tags: ["nlp"]
+  report: "https://arxiv.org/abs/1605.04359"
 
 
 - name: "Codeplay"

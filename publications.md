@@ -2,11 +2,11 @@
 layout: page
 ---
  <head>
- <link rel="stylesheet" href="https://www.cs.cmu.edu/~mshediva/assets/css/main.css">
+ <link rel="stylesheet" href="/assets/css/main.css">
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://madaan.github.io/assets/js/common.js"></script>
  </head>
  <article class="post-content publications clearfix">
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="https://www.cs.cmu.edu/~mshediva/assets/js/common.js"></script>
 
 <h2 id="publications">Conference Publications</h2>
 <ol class="bibliography">

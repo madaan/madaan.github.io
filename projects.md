@@ -1,9 +1,18 @@
 ---
 layout: page
-title: Projects
 permalink: /projects/
 ---
+ <head>
+ <link rel="stylesheet" href="/assets/css/main.css">
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://madaan.github.io/assets/js/common.js"></script>
+ </head>
+ <article class="post-content publications clearfix">
 
+<h2 id="publications">Projects</h2>
+<h3 id="publications">Tags</h3>
+
+Pick a tag
 {% assign tag_list = "" %}
 {% for project in site.data.projects %}
     {% for tag in project.tags %}
@@ -20,19 +29,37 @@ permalink: /projects/
     {% endfor %}
 </div>
 
-<div id="projects">
+  <hr/>
+
+
+<div id="projects" class="tags-expo-section">
     {% for active_tag in uniq_tag_list %}
-    <h1>{{active_tag}}</h1>
-    <ul>
+    <h3 class="tag-header" id = "{{active_tag}}">{{active_tag}}</h3>
+    <ol class="bibliography">
     {% for project in site.data.projects %}
         {% for tag in project.tags %}
             {% if tag == active_tag %}
-                <li><a href="/projects/{{project.url}}/"><h2 class="tag-header" id = "{{tag}}"> {{project.name}} </h2></a></li>
-                {{project.about}}
+                <li>
+                <h3 class="year">{{project.year}}</h3>
+                <span class="title"> {{project.name}} </span>
+                <span class="periodical"><em>{{project.about}}</em></span>
+                
+                <span class="links">
+                    {% if project.url %}
+                        [<a href="{{project.url}}">project page</a>]
+                    {% endif %}
+                    {% if project.report %}
+                        [<a href="{{project.report}}">report</a>]
+                    {% endif %}
+                    {% if project.code %}
+                        [<a href="{{project.code}}">code</a>]
+                    {% endif %}
+                </span>
+                </li>
             {% endif %}
         {% endfor %}
      {% endfor %}
-     </ul>
+     </ol>
 {% endfor %}
 </div>
 
