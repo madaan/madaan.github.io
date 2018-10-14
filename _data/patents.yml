@@ -1,0 +1,18 @@
+- title: Segmentation Platform
+  year: 2018
+  authors: "Madaan, Aman and Chand, Jagdish and Pammar, Somashekhar and Polavarapu, Venkata Sesha Rao and Sharma, Sunil and Jain, Tarun and Reinshagen, Dirk and Vroom, Derek and others"
+  number: "US Patent App. 15/436,458"
+  url: "https://patents.google.com/patent/US20180240020A1/en"
+  org: Visa USA
+  org-url: https://usa.visa.com/
+  abstract: "A segmentation platform enables a system that comprises a behavior service and a predictive service for determining a segment from a dataset. The behavior service can analyze data to determine information about behavior that has already occurred. The predictive service can analyze data to determine information about the predicted propensity for certain behavior to occur in the future. In some cases, the predictive service can determine the information by utilizing a training model that indicates predictions related to potential relationships among properties of a dataset. The segmentation platform also enables an interactive user interface that can be utilized to configure attributes of the segment, analyze information associated with the segment, and deliver the information to another device."
+
+
+- title: Database conditional field access
+  authors: "Dutta, Ranjan and Sharma, Varun and Madaan, Aman and Pammar, Somashekhar and Huang, Zian"
+  year: 2018
+  number: "US Patent App. 15/414,145"
+  url: "https://patents.google.com/patent/US20180211273A1/en"
+  org: Visa USA
+  org-url: https://usa.visa.com/
+  abstract: "A database system populates various fields with information from a plurality of data sources which is matched to geographic and segment information for different reference identifiers. A series of data unions provide a selectable result set. A selection of elements from the selectable result set are used to generate qualifiers that are monitored in real time to determine when the qualifiers have been satisfied in order to set a semaphore allowing access to the selection of elements."
