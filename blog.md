@@ -1,16 +1,22 @@
 ---
-layout: default
+layout: page
+permalink: /blog/
 ---
+
+ <head>
+ <link rel="stylesheet" href="/assets/css/main.css">
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://madaan.github.io/assets/js/common.js"></script>
+ </head>
 
 <div class="posts">
   {% for post in site.posts %}
     {%if post.blog != null %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 
       <div class="entry">
-        {{ post.excerpt }}
       </div>
 
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
