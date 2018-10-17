@@ -6,7 +6,7 @@ permalink: /blog/
  <head>
  <link rel="stylesheet" href="/assets/css/main.css">
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="https://madaan.github.io/assets/js/common.js"></script>
+<script src="/assets/js/common.js"></script>
  </head>
 
 <div class="posts">

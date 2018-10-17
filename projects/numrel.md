@@ -11,4 +11,4 @@ Consider a sentence, "Population of India is 1.3 billion". The sentence is expre
 
 We came up with two solutions to the problem: a rule based system called NumberRule, and a graphical model called NumberTron. 
 
-[Paper](https://homes.cs.washington.edu/~mausam/papers/aaai16a.pdf), [AAAI 2016 Talk Presentation](https://docs.google.com/viewer?url=https://github.com/madaan/madaan.github.io/raw/master/res/presentations/aaai-presentation-final.pdf){:target="_blank"}
+[Paper](https://homes.cs.washington.edu/~mausam/papers/aaai16a.pdf), [AAAI 2016 Talk Presentation](https://docs.google.com/viewer?url=https://madaan.github.io/res/presentations/aaai-presentation-final.pdf){:target="_blank"}
