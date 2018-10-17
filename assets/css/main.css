@@ -1,8 +1,7 @@
 @charset "UTF-8";
 /******************************************************************************/
 /******************************************************************************/
-/* portfolio tinkering */
-/* add on-palm to be consistent with other jekyll theme media queries */
+/*Taken from https://www.cs.cmu.edu/~mshediva/ */
 @media screen and (min-width: 32em) { html { font-size: 16px; }
   h1, .h1 { font-size: 2.998rem; }
   .site-header { text-align: left; }
@@ -543,3 +542,8 @@ sup { position: relative; vertical-align: middle; top: -0.9ex; }
 h1, h2, h3, h4, h5, h6 { font-weight: 100; }
 
 div.equation { margin: 0.5rem 0; }
+
+.hiking img {
+    width: 100%;
+    height: 100%;
+}

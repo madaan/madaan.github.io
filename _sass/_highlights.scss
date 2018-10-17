@@ -88,7 +88,7 @@ code {
 
 .post-tag{
     display:inline-block;
-    background:rgba(106,159,181,0.15);
+    //background:rgba(106,159,181,0.15);
     padding:0 .5rem;
     margin-right:.5rem;
     border-radius:4px;
@@ -104,6 +104,17 @@ code {
     font-family:FontAwesome;
     padding-right:.5em
 }
+.post-tag.clicked:before{
+    content:"\25A3";
+    font-family:FontAwesome;
+    padding-right:.5em
+}
+.post-tag.clicked{
+    text-decoration:none;
+    background:#6a9fb5;
+    color:#fff
+}
+
 .post-tag:hover{
     text-decoration:none;
     background:#6a9fb5;

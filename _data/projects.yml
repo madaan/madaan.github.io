@@ -1,8 +1,7 @@
 - name: "Inline implementation of End-to-End memory networks"
   about: 'An inline implementation of the <a href="https://arxiv.org/abs/1503.08895">end to end memory networks</a>.'
-  url: "inlineimpl"
   year: 2017
-  tags: ["nlp"]
+  tags: ["all", "nlp"]
   code: "https://github.com/madaan/pe/blob/master/babi-memn2n-withpaper.ipynb"
 
 - name: "Numerical Relation Extraction with Minimal Supervision"
@@ -11,71 +10,73 @@
   about: "To harness the Web for numerical relations, where relations are 3-tuples linking an entity to a number, like Co2 emission of India, Average age of Camel, etc."
   code: "https://github.com/NEO-IE"
   report: "https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12486"
-  tags: ["nlp", "ml"]
+  tags: ["all", "nlp", "ml"]
+  presentation: "https://madaan.github.io/res/presentations/aaai-presentation-final.pdf"
 
 - name: "Trends in Enterpreneurship"
   about: "How has Entrepreneurship as a concept evolved over the last few years? What's the typical demographics of an entrepreneur and where are they located?"
-  tags: ["analytics"]
-  url: "enttrends"
+  tags: ["all", "analytics"]
   year: 2015
+  report: "https://madaan.github.io/blob/master/res/papers/trends_in_ent.pdf"
 
 
 - name: "Optimal Load Assignment while Ensuring Fair Usage and User Satisfaction via Entropy Maximization"
   about: "You want to optimize for the number of hours which the ACs and the Fans are turned on in the labs, but you want to also make sure everyone is happy. Convex Optimization for the help!"
   url: "cvxload"
   year: 2015
-  tags: ["convex-optimization"]
+  tags: ["all", "convex-optimization"]
 
 
 - name: "Analysis of a Convex Formulation for Distant Supervision and Fitting a Custom Kernel"
   about: 'A detailed analysis of <a href="http://www.aclweb.org/anthology/D/D14/D14-1166.pdf">this work</a> and present experiments that hint at a potential for improvement'
   year: 2015
-  tags: ["convex-optimization"]
+  tags: ["all", "convex-optimization"]
   url: "cvxdistantsup"
 
 - name: "Technical Reviewer: Mastering Machine Learning with scikit-learn"
   about: 'As one of the technical reviewers, I was responsible for reviewing code and content for a book aimed at introducing machine learning using scikit-learn. I was offered this opportunity during a very busy semester while I was at IITB, but undertaking it turned out to be a good decision; it helped my ML as well as technical writing skills. <a href="https://www.amazon.com/Mastering-Machine-Learning-With-scikit-learn/dp/1783988363">Amazon link to the book</a>' 
-  tags: ["ml"]
+  tags: ["all", "ml"]
   year: 2015
 
 - name: "English SMS to Hindi Translation"
   about: 'Translator that takes English text written in SMS style abbreviated form to Hindi. For example, "hw r u?" is translated to “आप कैसे हैं?"'
   url: "/projects/smsxlate"
   year: 2014
-  tags: ["nlp", "ml"]
-  report: "https://madaan.github.io/res/presentations/smsxlate.pdf"
+  tags: ["all", "nlp", "ml"]
+  presentation: "https://madaan.github.io/res/presentations/smsxlate.pdf"
   
 
 
 - name: "MovieSim"
   about: "Given a movie, recommend other movies that have <i>similar plots.</i>"
   url: "moviesim"
-  tags: ["nlp", "ml"]
+  tags: ["all", "nlp", "ml"]
   year: 2014
   report: "https://madaan.github.io/res/papers/moviesim.pdf"
 
 - name: "Distributed Compilation as a Service"
   about: "To build a system that can provide the idle CPU time of the machines in a computer lab as a service to the users."
-  tags: ["distributed-systems"]
+  tags: ["all", "distributed-systems"]
   year: 2013
   url: "distcompile"
 
 - name: "Delic"
   about: 'Find out all the clauses in a given piece of license that the end user must <i>absolutely know</i> before they click on <b>I Agree</b>. The project won <a href="https://angelhack.com/">AngelHack</a> Mumbai Hackathon 2014. My team also got us accepted to their incubator with an initial funding, but we decided to focus on our degrees at that point in time. Checkout the <a href="http://madaan.github.io/delic/">Delic project page</a> which includes pointers to the code.'
-  tags: ["nlp"]
+  tags: ["all", "nlp"]
   year: 2014
 
 - name: "Occurrence Statistics Of Entities on the Web"
-  about: "To estimate the ratio of Entities (People, Organization, etc.) in a given text corpus using maximum mean discrepancy."
+  about: "To estimate the ratio of Entities (People, Organization, etc.) in a given text corpus using maximum mean discrepancy. In the process, I ended up surveying the state of the art in named entity disambiguation. Checkout the presentation for an overview of the tools or the report for an overview of the literature and techniques."
   url: "occurrencestats"
   year: 2014
-  tags: ["nlp"]
+  tags: ["all", "nlp"]
   report: "https://arxiv.org/abs/1605.04359"
+  presentation: "https://madaan.github.io/res/presentations/entity_statistics_aman_madaan_presentation.pdf"
 
 
 - name: "Codeplay"
   year: "2012"
   about: "An Android game that helps children in learning how to program while having fun. The game won a countrywide competition organized by TCS in 2012, Mobeel, with over 258 teams."
   url: "codeplay"
-  tags: ["android"]
+  tags: ["all", "android"]
 

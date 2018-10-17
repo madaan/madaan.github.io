@@ -10,5 +10,10 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.date %}
+  <div class="date">
+    Project {{ page.date | date: "%B %e, %Y" }}
+  </div>
+  {% endif %}
 </article>
 
