@@ -6,15 +6,14 @@ permalink: /projects/
  <link rel="stylesheet" href="/assets/css/main.css">
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="/assets/js/common.js"></script>
-
  </head>
  <article class="post-content publications clearfix">
-
+<div id='toTop'></div>
 <h2 id="publications">Projects</h2>
 This page lists about some of the interesting projects I've been a part of over the last few years. Some of these projects have a project page which contains more details. Please feel free to reach out to me at amn.madaan@gmail.com for any questions.
 
 
-<h3 id="publications">Tags</h3>
+<h4><i>Pick a tag!</i></h4>
 
 
 {% assign tag_list = "" %}
@@ -78,5 +77,5 @@ This page lists about some of the interesting projects I've been a part of over 
 {% endfor %}
 </div>
 
-
+<a href="#" class="scrollUpButton"><span class='icon-up'></span></a>
 

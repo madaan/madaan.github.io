@@ -17,7 +17,7 @@
   about: "How has Entrepreneurship as a concept evolved over the last few years? What's the typical demographics of an entrepreneur and where are they located?"
   tags: ["all", "analytics"]
   year: 2015
-  report: "https://madaan.github.io/blob/master/res/papers/trends_in_ent.pdf"
+  report: "https://madaan.github.io/res/papers/trends_in_ent.pdf"
 
 
 - name: "Optimal Load Assignment while Ensuring Fair Usage and User Satisfaction via Entropy Maximization"

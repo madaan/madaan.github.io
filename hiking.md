@@ -9,7 +9,7 @@ permalink: /hiking/
 <script src="/assets/js/common.js"></script>
  </head>
 <div class="hiking">
-<p>Pictures from hikes in and around the bay area. A mediocre phone camera backed by non-existent photography skills produced these photos; these hikes are that pretty.</p>
+<p>Pictures from hikes in and around the bay area. These photos were captured by an average phone camera in the hands of a below average photographer; these hikes are that pretty.</p>
 <table>
 
 
