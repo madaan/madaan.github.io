@@ -10,7 +10,11 @@ permalink: /projects/
  <article class="post-content publications clearfix">
 <div id='toTop'></div>
 <h2 id="publications">Projects</h2>
-This page lists about some of the interesting projects I've been a part of over the last few years. Some of these projects have a project page which contains more details. Please feel free to reach out to me at amn.madaan@gmail.com for any questions.
+<p>This page lists about some of the interesting projects I've been a part of over the last few years. Some of these projects have a <i>project page</i> which contains more details. </p>
+
+<p>Projects done at Visa and Oracle are <a href="/industry">listed here</a>.</p>
+
+<p>Please feel free to reach out to me for any questions.</p>
 
 
 <h4><i>Pick a tag!</i></h4>
