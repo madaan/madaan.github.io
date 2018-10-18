@@ -22,16 +22,17 @@
 
 - name: "Optimal Load Assignment while Ensuring Fair Usage and User Satisfaction via Entropy Maximization"
   about: "You want to optimize for the number of hours which the ACs and the Fans are turned on in the labs, but you want to also make sure everyone is happy. Convex Optimization for the help!"
-  url: "cvxload"
   year: 2015
+  report: "https://madaan.github.io/res/papers/133050004_corrected_code_relax_assumption.pdf"
   tags: ["all", "convex-optimization"]
 
 
 - name: "Analysis of a Convex Formulation for Distant Supervision and Fitting a Custom Kernel"
   about: 'A detailed analysis of <a href="http://www.aclweb.org/anthology/D/D14/D14-1166.pdf">this work</a> and present experiments that hint at a potential for improvement'
   year: 2015
+  report: "https://madaan.github.io/res/papers/analysis-convex-formulation.pdf"
+  presentation: "https://madaan.github.io/res/presentations/analysis-convex-formulation.pdf"
   tags: ["all", "convex-optimization"]
-  url: "cvxdistantsup"
 
 - name: "Technical Reviewer: Mastering Machine Learning with scikit-learn"
   about: 'As one of the technical reviewers, I was responsible for reviewing code and content for a book aimed at introducing machine learning using scikit-learn. I was offered this opportunity during a very busy semester while I was at IITB, but undertaking it turned out to be a good decision; it helped my ML as well as technical writing skills. <a href="https://www.amazon.com/Mastering-Machine-Learning-With-scikit-learn/dp/1783988363">Amazon link to the book</a>' 
