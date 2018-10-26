@@ -60,6 +60,7 @@
   tags: ["all", "distributed-systems"]
   year: 2013
   url: "distcompile"
+  report: "https://madaan.github.io/res/papers/distcc-cluster.pdf"
 
 - name: "Delic"
   about: 'Find out all the clauses in a given piece of license that the end user must <i>absolutely know</i> before they click on <b>I Agree</b>. The project won <a href="https://angelhack.com/">AngelHack</a> Mumbai Hackathon 2014. My team also got us accepted to their incubator with an initial funding, but we decided to focus on our degrees at that point in time. Checkout the <a href="http://madaan.github.io/delic/">Delic project page</a> which includes pointers to the code.'

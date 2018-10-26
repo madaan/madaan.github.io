@@ -6,7 +6,7 @@ title: Distributed Compilation as a Service
 ### Objective
 It was 2012 and I was really interested in dsitributed computing. One of the first projects we undertook was comparing the performance of a cluster of junk machines vs. the comparitively state of the art intel i-series processors. At the same time, I was actively contributing to Calligra which took a long time to compile. I also noticed that the machines in our labs are free almost all the time. These seemingly disjoint ideas led to the question of whether we can use the idle time on the machines for distributed compilation. 
 
-This was also the first proper research project I undertook. We got a good paper out of it ([IEEE link](https://ieeexplore.ieee.org/document/6637374/), [PDF](https://docs.google.com/viewer?url=https://github.com/madaan/madaan.github.io/raw/master/res/papers/moviesim.pdf){:target="_blank"}), and learned a lot about system design and implementation. Also, the build times improved drastically and I was able to contribute a [feature](https://git.reviewboard.kde.org/r/109746/) to Calligra! 
+This was also the first proper research project I undertook. We got a good paper out of it ([IEEE link](https://ieeexplore.ieee.org/document/6637374/), [PDF](https://docs.google.com/viewer?url=https://madaan.github.io/res/papers/distcc-cluster.pdf){:target="_blank"}), and learned a lot about system design and implementation. Also, the build times improved drastically and I was able to contribute a [feature](https://git.reviewboard.kde.org/r/109746/) to Calligra! 
 
 ### Objective 
 
