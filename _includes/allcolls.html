@@ -1,0 +1,14 @@
+Listing
+{% for collection in site.collections %}
+  {% assign name = collection.label %}
+    {% for page in site.[name] %}
+        {% for tag in page.tags %}
+        {{tag}}
+         {% endfor %}
+    {% endfor %}
+{% endfor %}
+
+Again
+{% for tag in site.tags %}
+    {{ tag }}
+    {% endfor %}

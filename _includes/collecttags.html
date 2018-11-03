@@ -1,0 +1,34 @@
+---
+---
+Hey I am added!!
+{% assign rawtags = "" %}
+{% for collection in site.collections %}
+ {% assign name = collection.label %}
+  {% for page in site.[name] %}
+   {% assign ttags = page.tags | join:'|' | append:'|' %}
+   {% assign rawtags = rawtags | append:ttags %}
+  {% endfor %}
+{% endfor %}
+
+{% for collection in site.collections %}
+  {% assign name = collection.label %}
+    {% for page in site.[name] %}
+        {% for tag in page.tags %}
+        {{tag}}
+         {% endfor %}
+    {% endfor %}
+{% endfor %}
+
+{% assign rawtags = rawtags | split:'|' | sort %}
+{{ site.tags | jsonify }}
+{% assign site.tags = "" %}
+{% for tag in rawtags %}
+  {% if tag != "" %}
+    {% if tags == "" %}
+      {% assign tags = tag | split:'|' %}
+    {% endif %}
+    {% unless tags contains tag %}
+      {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+    {% endunless %}
+  {% endif %}
+{% endfor %}
