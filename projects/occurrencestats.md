@@ -10,7 +10,7 @@ permalink: "/projects/occurrencestats/"
 
 - Used existing named entity disambiguators for feature extraction and libsvm for benchmarking and comparison.
 
-- Although the experiments I did were not able show supremacy of MMD over SVMs for named entity disambiguation, the seminar lead to a (hopefully) useful survey report of the problem of named entity disambiguation techniques and MMD.
+- Although the experiments I performed showed that SVMs performed better than MMD for ratio estimation of entities, the seminar lead to a useful survey report of the problem of named entity disambiguation techniques and MMD.
 
 ### Results/Report
 
