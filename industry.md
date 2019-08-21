@@ -18,6 +18,10 @@ Some of the projects that I've worked on both at Oracle and in Visa are listed b
 
 #### ***Oracle***
 
+- **Wiki Bot** 
+Software teams usually have a large number of wiki pages that are used to document their processes and contain information on the resources (like databases, code structure etc.) The task then was to create a chatbot that can directly answer questions from such wikis, thereby reducing the time it takes for a support/operations engineer to resolve an issue (they can directly ask questions to the chatbot, as opposed to going through wikis or hunting for people who may know the answer). Additionally, each unanswered query highlighted undocumented information that can be subsequently added to the wiki, thus helping in maintaining a high quality wiki pages.
+
+
 - **Analytics Cloud Platform 360°** Responsible for design and development of an analytics platform that extracts usage insights for Oracle BI applications. The platform is fed data from multifarious sources, including query server logs, support request tickets dataset and bugs database. The insights produced include metrics to quantify customer sentiment, customer engagement levels, discover recurring paths in the bug/support request flow, conversation analysis and detection and analysis of _outlier_ queries _(for example, those with runtime > 99<sup>th</sup> percentile of the run times in the last one week)_.
 
 #### ***Visa***
