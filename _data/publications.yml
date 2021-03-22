@@ -1,3 +1,13 @@
+- title: "Neural language modeling for contextualized temporal graph generation"
+  authors: "Madaan, Aman and Yang, Yiming"
+  conference: "NAACL"
+  year: 2021
+  organization: '<a href="https://2021.naacl.org/AAAI</a>'
+  pdf: "https://arxiv.org/pdf/2010.10077.pdf"
+  abstract: "This paper presents the first study on using large-scale pre-trained language models for automated generation of an event-level temporal graph for a document. Despite the huge success of neural pre-training methods in NLP tasks, its potential for temporal reasoning over event graphs has not been sufficiently explored. Part of the reason is the difficulty in obtaining large training corpora with human-annotated events and temporal links. We address this challenge by using existing IE/NLP tools to automatically generate a large quantity (89,000) of system-produced document-graph pairs, and propose a novel formulation of the contextualized graph generation problem as a sequence-to-sequence mapping task. These strategies enable us to leverage and fine-tune pre-trained language models on the system-induced training data for the graph generation task. Our experiments show that our approach is highly effective in generating structurally and semantically valid graphs. Further, evaluation on a challenging hand-labeled, out-domain corpus shows that our method outperforms the closest existing method by a large margin on several metrics. Code and pre-trained models are available at https://github.com/madaan/temporal-graph-gen."
+
+
+
 - title: "Numerical Relation Extraction with Minimal Supervision"
   authors: "Madaan, Aman and Mittal, Ashish and Ramakrishnan, Ganesh and Sarawagi, Sunita"
   conference: "Thirtieth AAAI Conference on Artificial Intelligence"
