@@ -23,6 +23,9 @@ layout: page
     {% if pub.talk %}
     [<a href="{{pub.talk}}">talk</a>]
     {% endif %}
+    {% if pub.tldr %}
+    [<a href="{{pub.tldr}}">tldr</a>]
+    {% endif %}
     {% if pub.publication %}
     [<a href="{{pub.publication}}">publication</a>]
     {% endif %}
