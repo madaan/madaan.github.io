@@ -3,7 +3,8 @@
   conference: "ACL 2021 (Findings)"
   year: 2021
   organization: '<a href="https://2021.aclweb.org//>ACL</a>'
-  pdf: "https://arxiv.org/pdf/2105.05418.pdf"
+  pdf: "https://aclanthology.org/2021.findings-acl.456.pdf"
+  talk: "https://madaan.github.io/res/presentations/cygmah.pdf"
   abstract: "Defeasible reasoning is the mode of reasoning where conclusions can be overturned by taking into account new evidence. A commonly used method in cognitive science and logic literature is to handcraft argumentation supporting inference graphs. While humans find inference graphs very useful for reasoning, constructing them at scale is difficult. In this paper, we automatically generate such inference graphs through transfer learning from another NLP task that shares the kind of reasoning that inference graphs support. Through automated metrics and human evaluation, we find that our method generates meaningful graphs for the defeasible inference task. Human accuracy on this task improves by 20% by consulting the generated graphs. Our findings open up exciting new research avenues for cases where machine reasoning can help human reasoning."
   org: ACL
 
@@ -13,6 +14,8 @@
   year: 2021
   organization: '<a href="https://2021.naacl.org/>NAACL</a>'
   pdf: "https://www.aclweb.org/anthology/2021.naacl-main.67.pdf"
+  talk: "https://madaan.github.io/res/presentations/naacl_temporal_gen.pdf"
+  tldr: "https://madaan.github.io/res/tldr/graph_gen_tldr.jpg"
   abstract: "This paper presents the first study on using large-scale pre-trained language models for automated generation of an event-level temporal graph for a document. Despite the huge success of neural pre-training methods in NLP tasks, its potential for temporal reasoning over event graphs has not been sufficiently explored. Part of the reason is the difficulty in obtaining large training corpora with human-annotated events and temporal links. We address this challenge by using existing IE/NLP tools to automatically generate a large quantity (89,000) of system-produced document-graph pairs, and propose a novel formulation of the contextualized graph generation problem as a sequence-to-sequence mapping task. These strategies enable us to leverage and fine-tune pre-trained language models on the system-induced training data for the graph generation task. Our experiments show that our approach is highly effective in generating structurally and semantically valid graphs. Further, evaluation on a challenging hand-labeled, out-domain corpus shows that our method outperforms the closest existing method by a large margin on several metrics. Code and pre-trained models are available at https://github.com/madaan/temporal-graph-gen."
   org: NAACL
 
