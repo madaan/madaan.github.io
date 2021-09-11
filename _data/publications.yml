@@ -32,6 +32,7 @@
   conference: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
   year: 2020
   pdf: "https://www.aclweb.org/anthology/2020.acl-main.169.pdf"
+  talk: "https://madaan.github.io/res/presentations/tag_and_generate.pdf"
   abstract: "This paper introduces a new task of politeness transfer which involves converting non-polite sentences to polite sentences while preserving the meaning. We also provide a dataset of more than 1.39 instances automatically labeled for politeness to encourage benchmark evaluations on this new task. We design a tag and generate pipeline that identifies stylistic attributes and subsequently generates a sentence in the target style while preserving most of the source content. For politeness as well as five other transfer tasks, our model outperforms the state-of-the-art methods on automatic metrics for content preservation, with a comparable or better performance on style transfer accuracy. Additionally, our model surpasses existing methods on human evaluations for grammaticality, meaning preservation and transfer accuracy across all the six style transfer tasks. The data and code is located at https://github.com/tag-and-generate."
   org: ACL
 
@@ -41,6 +42,7 @@
   year: 2020
   pdf: "https://arxiv.org/pdf/2004.11954.pdf"
   abstract: "We propose a method of curating high-quality comparable training data for low-resource languages with monolingual annotators. Our method involves using a carefully selected set of images as a pivot between the source and target languages by getting captions for such images in both languages independently. Human evaluations on the English-Hindi comparable corpora created with our method show that 81.1% of the pairs are acceptable translations, and only 2.47% of the pairs are not translations at all. We further establish the potential of the dataset collected through our approach by experimenting on two downstream tasks - machine translation and dictionary extraction. All code and data are available at https://github.com/madaan/PML4DC-Comparable-Data-Collection"
+  talk: "https://pml4dc.github.io/iclr2020/pdf/PML4DC2020_27.pdf"
   org: PML4DC@ICLR
 
 - title: "Numerical Relation Extraction with Minimal Supervision"
