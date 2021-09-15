@@ -9,7 +9,7 @@ permalink: /hiking/
 <script src="/assets/js/common.js"></script>
  </head>
 <div class="hiking">
-<p>Pictures from hikes, most of them from in and around the bay area. The photos were taken with a phone camera from the 2017 era.</p>
+<p>Pictures from hikes. Pre-2020 photos are almost all from the bay area and around.</p>
 <table>
 
 
