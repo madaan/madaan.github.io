@@ -11,7 +11,7 @@ permalink: /industry/
 
 ### Industry Experience
 
-Oracle and Visa gave me an opportunity to work on very exciting and impactful problems. The experience helped me in picking up skills to deal with (massive) scale, building systems that run like a clock, applying machine learning to datasets of various shapes, forms, and sizes and thinking thoroughly about maintainability, extensibility, and change. A lot of the _good habits_ mentioned in [this blog](http://madaan.github.io/wbc/) came from working on relevant problems in an industrial setting.
+Oracle and Visa gave me an opportunity to work on very exciting and impactful problems. The experience helped me in picking up skills to deal with (massive) scale, building systems that run like a clock, applying machine learning to datasets of various shapes and forms, and thinking thoroughly about maintainability, extensibility, and change. A lot of the _good habits_ mentioned in [this blog](http://madaan.github.io/wbc/) came from working on relevant problems in an industrial setting.
 
 Some of the projects that I've worked on both at Oracle and in Visa are listed below.
 
