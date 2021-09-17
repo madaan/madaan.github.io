@@ -10,7 +10,7 @@ permalink: /projects/
  <article class="post-content publications clearfix">
 <div id='toTop'></div>
 <h2 id="publications">Projects</h2>
-<p>This page lists about some of the interesting projects I've been a part of over the last few years. Some of these projects have a <i>project page</i> which contains more details. </p>
+<p>This page lists about some of the interesting projects I've been a part of <st>over the last few years</st> before 2019. Some of these projects have a <i>project page</i> which contains more details. </p>
 
 <p>Projects done at Visa and Oracle are <a href="/industry">listed here</a>.</p>
 
