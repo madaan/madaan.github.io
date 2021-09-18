@@ -15,17 +15,18 @@ avatar: ""
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: amn.madaan@gmail.com
+  email: amadaan@cs.cmu.edu
   facebook:
   flickr:
   github: madaan
   instagram:
   linkedin: amnmadaan
   pinterest:
+  googlescholar: jW9ts2cAAAAJ
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: aman_madaan
   stackoverflow: users/988966/axiom # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
+  youtube:  # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
 
