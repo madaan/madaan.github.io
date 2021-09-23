@@ -1,5 +1,14 @@
+- title: "Think about it! Improving defeasible reasoning by first modeling the question scenario"
+  authors: "Aman Madaan, Niket Tandon, Dheeraj Rajagopal, Peter Clark, Yiming Yang, and Eduard Hovy"
+  conference: "EMNLP 2021"
+  year: 2021
+  organization: '<a href="https://2021.emnlp.org//>EMNLP</a>' 
+  pdf: "https://madaan.github.io/res/papers/emnlp_graph_moe.pdf" 
+  abstract: ""
+  org: EMNLP
+
 - title: "Could you give me a hint? Generating inference graphs for defeasible reasoning"
-  authors: "Aman Madaan, Dheeraj Rajagopal, Niket Tandon, Yiming Yang, and Eduard Hovy"
+  authors: "Aman Madaan*, Dheeraj Rajagopal*, Niket Tandon*, Yiming Yang, and Eduard Hovy"
   conference: "ACL 2021 (Findings)"
   year: 2021
   organization: '<a href="https://2021.aclweb.org//>ACL</a>'
@@ -20,7 +29,7 @@
   org: NAACL
 
 - title: "EIGEN: Event influence generation using pre-trained language models" 
-  authors: "Aman Madaan, Dheeraj Rajagopal, Yiming Yang, Abhilasha Ravichander, Eduard Hovy, and Shrimai Prabhumoye."
+  authors: "Aman Madaan*, Dheeraj Rajagopal*, Yiming Yang, Abhilasha Ravichander, Eduard Hovy, and Shrimai Prabhumoye."
   conference: "ArXiv"
   year: 2020
   pdf: "https://arxiv.org/pdf/2010.11764.pdf"
@@ -28,7 +37,7 @@
   org: ArXiv
 
 - title: "Politeness Transfer: A Tag and Generate Approach" 
-  authors: "Aman Madaan, Amrith Setlur, Tanmay Parekh, Barnabas Poczos, Graham Neubig, Yiming Yang, Ruslan Salakhutdinov, Alan W. Black, and Shrimai Prabhumoye."
+  authors: "Aman Madaan*, Amrith Setlur*, Tanmay Parekh*, Barnabas Poczos, Graham Neubig, Yiming Yang, Ruslan Salakhutdinov, Alan W. Black, and Shrimai Prabhumoye."
   conference: "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics"
   year: 2020
   pdf: "https://www.aclweb.org/anthology/2020.acl-main.169.pdf"
