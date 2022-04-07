@@ -1,3 +1,12 @@
+- title: "Interscript: A dataset for interactive learning of scripts through error feedback"
+  year: 2022
+  authors: "Niket Tandon, Aman Madaan, Peter Clark, Keisuke Sakaguchi, and Yiming Yang"
+  conference: "The AAAI-22 Workshop on Interactive Machine Learning 2022"
+  org: IMLW@AAAI
+  abstract: "How can an end-user provide feedback if a deployed structured prediction model generates inconsistent output, ignoring the structural complexity of human language? This is an emerging topic with recent progress in synthetic or constrained settings, and the next big leap would require testing and tuning models in real-world settings. We present a new dataset, INTERSCRIPT, containing user feedback on a deployed model that generates complex everyday tasks. INTERSCRIPT contains 8,466 data points– the input is a possibly erroneous script and a user feedback and the output is a modified script. We posit two use-cases of INTERSCRIPT that might significantly advance the state-of-the-art in interactive."
+  pdf: "https://arxiv.org/pdf/2112.07867.pdf"
+
+
 - title: "Think about it! Improving defeasible reasoning by first modeling the question scenario"
   authors: "Aman Madaan, Niket Tandon, Dheeraj Rajagopal, Peter Clark, Yiming Yang, and Eduard Hovy"
   conference: "EMNLP 2021"
