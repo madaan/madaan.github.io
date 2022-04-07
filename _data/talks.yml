@@ -2,3 +2,9 @@
   year: 2022
   venue: Yiming Yang's Lab Seminar
   talk: "https://madaan.github.io/res/presentations/codegen_labsem_2022.pdf"
+
+- title: "Commonsense Reasoning using Pre-trained Language Models"
+  year: 2021
+  venue: Lecture for 11741 - Machine Learning for Text and Graph Mining
+  talk: "https://madaan.github.io/res/presentations/commonsense_lecture.pdf"
+

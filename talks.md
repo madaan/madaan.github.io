@@ -11,9 +11,7 @@ layout: page
 <h2 id="publications">Recent talks</h2>
 <ol class="bibliography">
 {% for pub in site.data.talks %}
-<li> <span class="title">{{pub.title}}</span>
-<h3 class="year">{{pub.year}}</h3>
-<h5>{{pub.venue}} [<a href="{{pub.talk}}">slides</a>]</h5>
+<li> <span class="title">{{pub.title}}, {{pub.venue}}, {{pub.year}} [<a href="{{pub.talk}}">slides</a>]</span>
  </li>
  {% endfor %}
  </ol>
