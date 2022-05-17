@@ -8,11 +8,11 @@ layout: page
  </head>
  <article class="post-content publications clearfix">
 
-<h2 id="publications">Conference Publications</h2>
+<h2 id="publications">Peer-reviewed Publications</h2>
 <ol class="bibliography">
 {% for pub in site.data.publications %}
 <li>
-  <abbr>[<a href="{{pub.org-url}}" target="_blank">{{pub.org}}</a>]</abbr>
+  <abbr><a href="{{pub.org-url}}" target="_blank">[{{pub.org}}]</a></abbr>
   <h3 class="year">{{pub.year}}</h3>
   <span class="title">{{pub.title}}</span>
   <span class="author">{{pub.authors}}</span>
@@ -37,7 +37,7 @@ layout: page
  {% endfor %}
  </ol>
 
-<h2 id="publications">Patents</h2>
+<!-- <h2 id="publications">Patents</h2>
 <ol class="bibliography">
 {% for patent in site.data.patents %}
 <li>
@@ -55,6 +55,6 @@ layout: page
   </span>
  </li>
  {% endfor %}
- </ol>
+ </ol> -->
 
 </article>
