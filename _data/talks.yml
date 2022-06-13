@@ -1,10 +1,17 @@
+- title: Beyond conventional text generation
+  year: April 2022
+  venue: Yiming Yang's Lab Seminar
+  talk: "https://madaan.github.io/res/presentations/beyond_conv_text_gen.pdf"
+
+- title: "Commonsense Reasoning using Pre-trained Language Models"
+  year: April 2022
+  venue: Lecture for 11741 - Machine Learning for Text and Graph Mining
+  talk: "https://madaan.github.io/res/presentations/commonsense_lecture.pdf"
+
 - title: Recent progress in code generation
-  year: 2022
+  year: Feb 2022
   venue: Yiming Yang's Lab Seminar
   talk: "https://madaan.github.io/res/presentations/codegen_labsem_2022.pdf"
 
-- title: "Commonsense Reasoning using Pre-trained Language Models"
-  year: 2021
-  venue: Lecture for 11741 - Machine Learning for Text and Graph Mining
-  talk: "https://madaan.github.io/res/presentations/commonsense_lecture.pdf"
+
 
