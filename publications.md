@@ -20,12 +20,20 @@ layout: page
   <span class="links">
     [<a class="abstract hidden">abstract</a>]
     [<a href="{{pub.pdf}}">pdf</a>]
+
+    {% if pub.code %}
+    [<a href="{{pub.code}}">code</a>]
+    {% endif %}
+  
+
     {% if pub.talk %}
     [<a href="{{pub.talk}}">talk</a>]
     {% endif %}
+  
     {% if pub.tldr %}
     [<a href="{{pub.tldr}}">tldr</a>]
     {% endif %}
+  
     {% if pub.publication %}
     [<a href="{{pub.publication}}">publication</a>]
     {% endif %}
