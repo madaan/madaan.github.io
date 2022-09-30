@@ -69,6 +69,13 @@
   code: https://github.com/madaan/temporal-graph-gen
 
 
+- title: "Towards Using Heterogeneous Relation Graphs for End-to-End TTS"
+  authors: "Amrith Setlur*, Aman Madaan*, Tanmay Parekh*, Yiming Yang, and Alan W. Black"
+  conference: "ASRU 2021"
+  year: 2021
+  organization: '<a href="https://ieeexplore.ieee.org/xpl/conhome/9687821/proceeding/>ASRU</a>'
+  pdf: "https://ieeexplore.ieee.org/document/9687876"
+  org: ASRU
 
 - title: "Politeness Transfer: A Tag and Generate Approach" 
   authors: "Aman Madaan*, Amrith Setlur*, Tanmay Parekh*, Barnabas Poczos, Graham Neubig, Yiming Yang, Ruslan Salakhutdinov, Alan W. Black, and Shrimai Prabhumoye."
