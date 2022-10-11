@@ -1,7 +1,7 @@
 - title: "Language Models of Code are Few-Shot Commonsense Learners"
   year: 2022
   authors: "Aman Madaan, Shuyan Zhou, Uri Alon, Yiming Yang, Graham Neubig"
-  conference: "EMNLP 2022"
+  conference: "EMNLP 2022 (To Appear)"
   org: EMNLP
   code: https://github.com/madaan/CoCoGen
   abstract: "We address the general task of structured commonsense reasoning: given a natural language input, the goal is to generate a graph such as an event- or a reasoning-graph. To employ large language models (LMs) for this task, existing approaches ``serialize'' the output graph as a flat list of nodes and edges. Although feasible, these serialized graphs strongly deviate from the natural language corpora that LMs were pre-trained on, hindering LMs from generating them correctly.  In this paper, we show that when we instead frame structured commonsense reasoning tasks as code generation tasks, pre-trained LMs of code are better structured commonsense reasoners than LMs of natural language, even when the downstream task does not involve source code at all. We demonstrate our approach across three diverse structured commonsense reasoning tasks. In all these natural language tasks, we show that using our approach, a code generation LM (CODEX) outperforms natural-LMs that are fine-tuned on the target task (e.g., T5) and other strong LMs such as GPT-3 in the few-shot setting."
@@ -11,7 +11,7 @@
 - title: "Conditional set generation using Seq2seq models"
   year: 2022
   authors: "Aman Madaan, Dheeraj Rajagopal, Niket Tandon, Yiming Yang, and Antoine Bosselut"
-  conference: "EMNLP 2022"
+  conference: "EMNLP 2022 (To Appear)"
   org: EMNLP
   abstract: "Conditional set generation learns a mapping from an input sequence of tokens to a set. Several NLP tasks, such as entity typing and dialogue emotion tagging, are instances of set generation. Sequence-to-sequence~(Seq2seq) models are a popular choice to model set generation, but they treat a set as a sequence and do not fully leverage its key properties, namely order-invariance and cardinality. We propose a novel algorithm for effectively sampling informative orders over the combinatorial space of label orders. Further, we jointly model the set cardinality and output by adding the set size as the first element and taking advantage of the autoregressive factorization used by Seq2seq models. Our method is a model-independent data augmentation approach that endows any Seq2seq model with the signals of order-invariance and cardinality. Training a Seq2seq model on this new augmented data~(without any additional annotations) gets an average relative improvement of 20% for four benchmarks datasets across models spanning from BART-base, T5-xxl, and GPT-3."
   pdf: "https://arxiv.org/pdf/2205.12485.pdf"
@@ -19,7 +19,7 @@
 - title: "Memory-assisted prompt editing to improve GPT-3 after deployment"
   year: 2022
   authors: "Aman Madaan*, Niket Tandon*, Peter Clark, and Yiming Yang"
-  conference: "EMNLP 2022"
+  conference: "EMNLP 2022 (To Appear)"
   org: EMNLP
   code: https://github.com/madaan/memprompt
   abstract: "Large LMs such as GPT-3 are powerful, but can commit mistakes that are obvious to humans. For example, GPT-3 would mistakenly interpret 'What word is similar to good?' to mean a homophone, while the user intended a synonym. Our goal is to effectively correct such errors via user interactions with the system but without retraining, which will be prohibitively costly. We pair GPT-3 with a growing memory of recorded cases where the model misunderstood the user's intents, along with user feedback for clarification. Such a memory allows our system to produce enhanced prompts for any new query based on the user feedback for error correction on similar cases in the past. On four tasks (two lexical tasks, two  advanced ethical reasoning tasks), we show how a (simulated) user can interactively teach a deployed GPT-3, substantially increasing its accuracy over the queries with different kinds of misunderstandings by the GPT-3. Our approach is a step towards the low-cost utility enhancement for very large pre-trained LMs."
