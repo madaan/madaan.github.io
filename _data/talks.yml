@@ -1,13 +1,18 @@
 - title: Language Models of Code are Few-shot Reasoners
   year: Dec 2022
-  venue: UIUC-NLP Seminar, UIUC
+  venue: UIUC-NLP Seminar, University of Illinois Urbana-Champaign
   talk: "https://madaan.github.io/res/presentations/language_models_of_code_are_few_shot_reasoners.pdf"
+
+- title: Commonsense Reasoning with Large Language Models
+  year: Nov 2022
+  venue: Guest Lecture for 11741 - Machine Learning for Text and Graph Mining
+  talk: "https://drive.google.com/file/d/1diaxLuUzvVlNykwvWbyYIset0OWLM2O3/view?usp=sharingf"
+
 
 - title: Text and Patterns - For Effective Chain of Thought, It Takes Two to Tango
   year: Oct 2022
   venue: Reasoning Research Weekly, Google and N2Formal Literature Review, Google
   talk: "https://madaan.github.io/res/presentations/TwoToTango.pdf"
-
 
 - title: Beyond conventional text generation
   year: April 2022
@@ -16,7 +21,7 @@
 
 - title: "Commonsense Reasoning using Pre-trained Language Models"
   year: April 2022
-  venue: Lecture for 11741 - Machine Learning for Text and Graph Mining
+  venue: Guest Lecture for 11741 - Machine Learning for Text and Graph Mining
   talk: "https://madaan.github.io/res/presentations/commonsense_lecture.pdf"
 
 - title: Recent progress in code generation
