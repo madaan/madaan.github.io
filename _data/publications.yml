@@ -6,6 +6,8 @@
   code: https://github.com/madaan/CoCoGen
   abstract: "We address the general task of structured commonsense reasoning: given a natural language input, the goal is to generate a graph such as an event- or a reasoning-graph. To employ large language models (LMs) for this task, existing approaches ``serialize'' the output graph as a flat list of nodes and edges. Although feasible, these serialized graphs strongly deviate from the natural language corpora that LMs were pre-trained on, hindering LMs from generating them correctly.  In this paper, we show that when we instead frame structured commonsense reasoning tasks as code generation tasks, pre-trained LMs of code are better structured commonsense reasoners than LMs of natural language, even when the downstream task does not involve source code at all. We demonstrate our approach across three diverse structured commonsense reasoning tasks. In all these natural language tasks, we show that using our approach, a code generation LM (CODEX) outperforms natural-LMs that are fine-tuned on the target task (e.g., T5) and other strong LMs such as GPT-3 in the few-shot setting."
   pdf: "https://arxiv.org/pdf/2210.07128.pdf"
+  talk: https://youtu.be/_Wr8pjS-748?t=22
+
 
 
 - title: "Conditional set generation using Seq2seq models"
@@ -24,6 +26,8 @@
   code: https://github.com/madaan/memprompt
   abstract: "Large LMs such as GPT-3 are powerful, but can commit mistakes that are obvious to humans. For example, GPT-3 would mistakenly interpret 'What word is similar to good?' to mean a homophone, while the user intended a synonym. Our goal is to effectively correct such errors via user interactions with the system but without retraining, which will be prohibitively costly. We pair GPT-3 with a growing memory of recorded cases where the model misunderstood the user's intents, along with user feedback for clarification. Such a memory allows our system to produce enhanced prompts for any new query based on the user feedback for error correction on similar cases in the past. On four tasks (two lexical tasks, two  advanced ethical reasoning tasks), we show how a (simulated) user can interactively teach a deployed GPT-3, substantially increasing its accuracy over the queries with different kinds of misunderstandings by the GPT-3. Our approach is a step towards the low-cost utility enhancement for very large pre-trained LMs."
   pdf: "https://arxiv.org/pdf/2201.06009.pdf"
+  talk: https://www.youtube.com/watch?v=Ld7R02bOiNQ
+  blog: https://blog.allenai.org/introducing-memprompt-55c8f6935a5b
 
 
 

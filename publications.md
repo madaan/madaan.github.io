@@ -25,7 +25,10 @@ layout: page
     [<a href="{{pub.code}}">code</a>]
     {% endif %}
   
-
+    {% if pub.blog %}
+    [<a href="{{pub.blog}}">blog</a>]
+    {% endif %}
+  
     {% if pub.talk %}
     [<a href="{{pub.talk}}">talk</a>]
     {% endif %}
