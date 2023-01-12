@@ -9,6 +9,9 @@ layout: page
  <article class="post-content publications clearfix">
 
 <h2 id="publications">Peer-reviewed Publications</h2>
+
+Please see <a href="https://scholar.google.com/citations?user=jW9ts2cAAAAJ&hl=en&oi=ao">Google Scholar</a> and <a href="https://www.semanticscholar.org/author/Aman-Madaan/21626987">Semantic Scholar</a> for an updated list of publications.
+
 <ol class="bibliography">
 {% for pub in site.data.publications %}
 <li>
