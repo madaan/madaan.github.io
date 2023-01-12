@@ -97,7 +97,7 @@
   conference: "ASRU 2021"
   year: 2021
   organization: '<a href="https://ieeexplore.ieee.org/xpl/conhome/9687821/proceeding/>ASRU</a>'
-  pdf: "https://ieeexplore.ieee.org/document/9687876"
+  pdf: "http://www.cs.cmu.edu/~awb/papers/ASRU2021_setlur.pdf"
   org: ASRU
   abstract: "Neural models for end-to-end text-to-speech (TTS) synthesis are increasingly outperforming traditional approaches in statistical parametric speech synthesis.
 Speech generation in these neural models predominantly relies on using free-form text as the input modality. However, the earlier statistical parametric models were built on encoded phonetic and syntactic features. 
