@@ -2,10 +2,6 @@
   year: Feb 2022
   venue: Yiming Yang's Lab Seminar
   talk: "https://madaan.github.io/res/presentations/using_human_feedback_for_training_lms.pdf"
-  
-
-using_human_feedback_for_training_lms.pdf
-
 
 - title: Language Models of Code are Few-shot Reasoners
   year: Dec 2022
@@ -37,6 +33,3 @@ using_human_feedback_for_training_lms.pdf
   year: Feb 2022
   venue: Yiming Yang's Lab Seminar
   talk: "https://madaan.github.io/res/presentations/codegen_labsem_2022.pdf"
-
-
-
