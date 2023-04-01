@@ -55,6 +55,13 @@ highlighter: rouge
 permalink: /:title/
 
 markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      folding: true
 # The release of Jekyll Now that you're using
 version: v1.1.0
 

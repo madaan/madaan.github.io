@@ -17,6 +17,25 @@
   </script>
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
     {% include analytics.html %}
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        var details = document.querySelectorAll("details");
+        for (var i = 0; i < details.length; i++) {
+          var detail = details[i];
+          var code = detail.querySelector("code");
+          var pre = code.parentNode;
+          code.style.display = "none";
+          var summary = document.createElement("summary");
+          summary.textContent = pre.getAttribute("data-title") || "Show Code";
+          detail.insertBefore(summary, code);
+          summary.addEventListener("click", function() {
+            code.style.display = (code.style.display === "none") ? "block" : "none";
+          });
+        }
+      });
+      </script>
+      
   </head>
 
   <body>
