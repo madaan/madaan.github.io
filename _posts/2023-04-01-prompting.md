@@ -242,7 +242,7 @@ else:
   - They are not deterministic.
   - They fail
 
-<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/instr_fail.jpg" alt="LLM Compiler" width="700" height="800">
+<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/instr_fail.jpg" alt="LLM Compiler" width="600" height="800">
 
 - <b>But they listen if you talk nicely to them<b>:
 
@@ -391,7 +391,7 @@ def solution():
 
 ### More ways of prompting
 
-- A survey of recent prompting techniques: https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/
+- A survey of recent prompting techniques: [https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
 
 
 ### More demos
