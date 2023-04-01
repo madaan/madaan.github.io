@@ -99,7 +99,7 @@ print(f"The sum is: {sum}")
   - C code: A sequence of keywords compiler
   - Python code: A sequence of keywords, interpreter
 
-- Yet, they are same:
+- <b>Yet, there is a common thread:</b>
   - A way to communicate the task to the processor.
   - Just different ways to represent the same task.
 
