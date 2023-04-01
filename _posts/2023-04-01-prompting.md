@@ -399,4 +399,12 @@ def solution():
 - [Your LLM has a "virtual machine"](https://github.com/reasoning-machines/prompt-lib/blob/main/notebooks/YoavsPythonPrompts.ipynb)
 
 - [Self-refine](https://selfrefine.info)
-- 
+
+
+
+
+## Acknowledgements
+
+- The blog was originally written for the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/). Thanks to the organizers for the opportunity to present the material.
+
+- Thanks to [Adithya Pratapa](https://adithya7.github.io/)
