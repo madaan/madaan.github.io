@@ -111,7 +111,7 @@ print(f"The sum is: {sum}")
   
 - A useful way to think about prompting is as another programming language.
 
-- The language model is the interpreter:
+- The language model is the compiler:
 
 
 <img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/llmcompiler.jpg" alt="LLM Compiler" width="500" height="300">
@@ -237,7 +237,7 @@ else:
 
 ## LLMs are _Stochastic_ Compilers
 
-- Yes, the LLMs can interpret your instructions and solve the task. BUT...
+- Yes, the LLMs can _compile_ your instructions and solve the task. BUT...
   - They are not deterministic.
   - They fail
 
