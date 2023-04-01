@@ -396,7 +396,7 @@ def solution():
 - [Optimizing Programs by making Targeted Algorithmic Changes](http://pie4perf.com/)
 - [Leveraging Python to Assist Language Models](http://reasonwithpal.com/)
 - [What makes chain-of-thought prompting work?](https://arxiv.org/abs/2209.07686)
-- [Generating Plans from LLMs as Python Programs](https://cocogen.structgen.com/)
+- [Generating Structured Plans from using LLMs of Code](https://cocogen.structgen.com/)
 - [Utilizing Memory to Prevent LLMs from Repeating Mistakes](https://memprompt.com)
 
 <hr>
