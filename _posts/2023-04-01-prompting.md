@@ -11,7 +11,7 @@ _Or how to think about prompting._
 
 
 <center>
-<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/header.jpg" alt="LLM Compiler" width="300" height="350">
+<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/header.jpg" alt="LLM Compiler" width="300" height="300">
 </center>
 
 
@@ -75,35 +75,25 @@ print(f"The sum is: {sum}")
 
 ## Common thread
 
-- There is something we want to solve.
+- There is a task we want to solve.
 
-  - <b>Task:</b> Add two numbers
-  - <b>Input:</b> Two numbers
-  - <b>Output:</b> Their sum
-
-
-- Increasing levels of abstraction
-
-  - Machine code
-  - Assembly code
-  - C code
-  - Python code
-
-
+  - **Task:** Add two numbers
+  - **Input:** Two numbers
+  - **Output:** Their sum
 
 - Each level of abstraction is a different representation of the same task.
 
-  - Machine code: A sequence of bytes, no translation required
-  - Assembly code: A sequence of mnemonics, assembler
-  - C code: A sequence of keywords compiler
-  - Python code: A sequence of keywords, interpreter
+  - **Machine code:** A sequence of bytes, no translation required
+  - **Assembly code:** A sequence of mnemonics, assembler
+  - **C code:** A sequence of keywords compiler
+  - **Python code:** A sequence of keywords, interpreter
 
-- <b>Yet, there is a common thread:</b>
+
+- *Yet, there <span color="red">is</span> a common thread:*
   - A way to communicate the task to the processor.
   - Just different ways to represent the same task.
 
 - You are not teaching the task to the processor--you are just specifying the task differently. The processor already knows how to add two numbers.
-
 
 <hr>
 
@@ -416,3 +406,5 @@ def solution():
 - The blog was originally written for the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/). Thanks to the organizers for the opportunity to present the material.
 
 - Thanks to [Adithya Pratapa](https://adithya7.github.io/) for proofeading the first draft.
+
+- Thanks to GPT-4 for generating some examples for this blog.
