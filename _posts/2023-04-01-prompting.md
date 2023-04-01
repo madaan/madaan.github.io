@@ -8,7 +8,7 @@ blog: "true"
 
 _Or how to think about prompting._
 
-# How abstractions evolve
+# Abstractions evolve
 
 
 Here is a simple example of how abstractions evolve. Consider the problem of adding two numbers. Given a specification like "Given two numbers, return their sum", we can write a program that solves this problem at different levels of abstraction.
@@ -134,7 +134,7 @@ Output: The output is
 
 ### Specification with instructions
 
-- "Generte a poem that rhymes with 'cat' and has 10 lines."
+- "Generate a poem that rhymes with 'cat' and has 10 lines."
 
 
 ```
@@ -339,6 +339,18 @@ def solution():
 
 <hr>
 
+
+## So far
+
+- Language models like GPT-4 can be thought of as compilers that interpret prompts at various levels of abstraction.
+
+- Abstractions in programming languages evolve, with examples ranging from machine code to Python.
+
+- Prompts can be specified using different programming styles, such as instructions or examples.
+
+- Language models are stochastic, requiring trial and error to produce the desired output.
+
+- Alternative forms of input, like code, can be used to achieve more precise results from the model.
 
 
 ## Let's get hands-on!
