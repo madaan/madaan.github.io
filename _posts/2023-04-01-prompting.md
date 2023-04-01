@@ -401,10 +401,8 @@ def solution():
 - [Self-refine](https://selfrefine.info)
 
 
-
-
 ## Acknowledgements
 
 - The blog was originally written for the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/). Thanks to the organizers for the opportunity to present the material.
 
-- Thanks to [Adithya Pratapa](https://adithya7.github.io/)
+- Thanks to [Adithya Pratapa](https://adithya7.github.io/) for proofeading the first draft.
