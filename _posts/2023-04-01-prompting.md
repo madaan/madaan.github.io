@@ -1,12 +1,12 @@
 ---
 layout: post
-title: LLMs are compilers 
+title: LLMs Are Compilers 
 root: "../"
 blog: "true"
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
-_Or how to think about prompting._
+_How to Think About Prompting with an Imprecise but Hopefully Helpful Analogy._
 
 
 
