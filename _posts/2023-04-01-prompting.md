@@ -236,7 +236,7 @@ else:
 
 <hr>
 
-<h2> LLMs are <i>stochastic</i> compilers</h2>
+## LLMs are _stochastic_ compilers
 
 - Yes, the LLMs can interpret your instructions and solve the task. BUT...
   - They are not deterministic.
