@@ -103,14 +103,15 @@ print(f"The sum is: {sum}")
 
 - The language model is the compiler:
 
-
-<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/llmcompiler.jpg" alt="LLM Compiler" width="500" height="300">
-
+<center>
+<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/llmcompiler.jpg" alt="LLM Compiler" width="450" height="200">
+</center>
 
 - Input:
 ```
 Task: Add two numbers.
 Input: 4, 6
+```
 
 - Output:
 ```
@@ -118,13 +119,25 @@ Output: The output is 10.
 ```
 
 
-- Code:
+
+- You wrote code in natural language, which the language model compiles into a sequence of instructions a processor can execute.:
 ```
 Task: Add two numbers.
 Input: 4, 6
 Output: The output is
 ```
 
+
+### Fleshing out the analogy
+
+- If language models are compilers, what's the processor?
+  - The GPU! The language model converts natural language into a sequence of matrix operations and non-linearities that the GPU can execute.
+  
+  - If you are not convinced, you can perhaps think about [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array). 
+    - FPGAs are programmable processors that can be programmed to execute arbitrary logic. When you write code for an FPGA, you're essentially changing the connections between its logic gates, thus dictating the flow of information through the processor. The FPGA is the processor and you write code to change the connections between the logic gates.
+    - Similarly, the "prompts" you write affect the activations in the language model, and similarly change the flow of information through the language model. The language model is the processor and you write code to change the connections between the neurons.
+
+  - If you are still not convinced, I told you the analogy is imprecise.
 
 
 <hr>
