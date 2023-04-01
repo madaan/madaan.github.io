@@ -398,4 +398,5 @@ def solution():
 
 - [Your LLM has a "virtual machine"](https://github.com/reasoning-machines/prompt-lib/blob/main/notebooks/YoavsPythonPrompts.ipynb)
 
-- [Self-refine](selfrefine.info)
+- [Self-refine](https://selfrefine.info)
+- 
