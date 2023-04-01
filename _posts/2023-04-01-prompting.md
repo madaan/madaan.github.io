@@ -20,7 +20,7 @@ _Or how to think about prompting._
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## Abstractions evolve
+## The Evolution of Abstractions in Programming
 
 
 Here is a simple example of how abstractions evolve. Consider the problem of adding two numbers. Given a specification like "Given two numbers, return their sum," we can write a program that solves this problem at different levels of abstraction.
@@ -107,7 +107,7 @@ print(f"The sum is: {sum}")
 
 <hr>
 
-## Language models are compilers
+## Language Models as Compilers
   
 - A useful way to think about prompting is as another programming language.
 
@@ -140,7 +140,7 @@ Output: The output is
 <hr>
 
 
-## Prompting is expressive
+## The Expressiveness of Prompting
 
 - Recall: the goal is to _specify_ the task, not to _teach_ the task.
 
@@ -235,7 +235,7 @@ else:
 
 <hr>
 
-## LLMs are _stochastic_ compilers
+## LLMs are _Stochastic_ Compilers
 
 - Yes, the LLMs can interpret your instructions and solve the task. BUT...
   - They are not deterministic.
@@ -355,7 +355,7 @@ def solution():
 <hr>
 
 
-## TLDR
+## Summary and Key Takeaways
 
 - Language models like GPT-3.5/4/ChatGPT can be thought of as compilers that interpret prompts at various levels of abstraction.
 
@@ -363,18 +363,29 @@ def solution():
 
 - Prompts can be specified using different programming styles, such as instructions or examples.
 
-- Language models are stochastic, requiring trial and error to produce the desired output.
+- Language models are stochastic compilers, requiring trial and error to produce the desired output.
 
 - Alternative forms of input, like code, can be used to achieve more precise results from the model.
 
 
-## Let's get hands-on!
 
 
-- We will use the [OpenAI API](https://platform.openai.com/docs/api-reference/introduction) to interact with the LLMs.
+### Interactive Demos and Examples
 
-- [Colab notebook](https://github.com/madaan/memprompt/blob/main/CompletionAndChat.ipynb)
+- [Your LLM has a "virtual machine"](https://github.com/reasoning-machines/prompt-lib/blob/main/notebooks/YoavsPythonPrompts.ipynb)
 
+
+- [Standard interface for completion and conversation](https://github.com/madaan/memprompt/blob/main/CompletionAndChat.ipynb)
+
+
+### Advanced Prompting Techniques
+
+
+- A nice [survey](https://arxiv.org/abs/2107.13586) of prompting. A great read especially if you are interested in understanding where NLP was before prompting.
+
+- Another great [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) from Lillian on recent prompt engineering techniques.
+
+<hr>
 
 ### Libraries
 
@@ -387,19 +398,7 @@ def solution():
 
 - [prompt-lib](https://github.com/reasoning-machines/prompt-lib)
 
-
-### More ways of prompting
-
-- A survey of recent prompting techniques: [https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/)
-
-
-### More demos
-
-- [Your LLM has a "virtual machine"](https://github.com/reasoning-machines/prompt-lib/blob/main/notebooks/YoavsPythonPrompts.ipynb)
-
-
-- [Standard interface for completion and conversation](https://github.com/madaan/memprompt/blob/main/CompletionAndChat.ipynb)
-
+<hr>
 
 ### Our recent work on LLMs
 
@@ -410,6 +409,7 @@ def solution():
 - [Generating Plans from LLMs as Python Programs](https://cocogen.structgen.com/)
 - [Utilizing Memory to Prevent LLMs from Repeating Mistakes](https://memprompt.com)
 
+<hr>
 
 ## Acknowledgements
 
