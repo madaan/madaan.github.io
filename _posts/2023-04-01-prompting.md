@@ -77,9 +77,9 @@ print(f"The sum is: {sum}")
 
 - There is something we want to solve.
 
-  - Task: Add two numbers
-  - Input: Two numbers
-  - Output: Their sum
+  - <b>Task:</b> Add two numbers
+  - <b>Input:</b> Two numbers
+  - <b>Output:</b> Their sum
 
 
 - Increasing levels of abstraction
