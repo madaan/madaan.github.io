@@ -10,7 +10,6 @@ _Or how to think about prompting._
 
 
 
-
 <center>
 <img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/header.jpg" alt="LLM Compiler" width="300" height="350">
 </center>
@@ -24,7 +23,7 @@ _Or how to think about prompting._
 ## Abstractions evolve
 
 
-Here is a simple example of how abstractions evolve. Consider the problem of adding two numbers. Given a specification like "Given two numbers, return their sum", we can write a program that solves this problem at different levels of abstraction.
+Here is a simple example of how abstractions evolve. Consider the problem of adding two numbers. Given a specification like "Given two numbers, return their sum," we can write a program that solves this problem at different levels of abstraction.
 
 
 - Machine code: The lowest level of abstraction. The program is a sequence of instructions that are executed by the CPU. The instructions are represented as a sequence of bytes.
@@ -41,8 +40,8 @@ Here is a simple example of how abstractions evolve. Consider the problem of add
 ```
 MOV AX, 1     ; Load the first number (1) into register AX
 MOV BX, 2     ; Load the second number (2) into register BX
-ADD AX, BX    ; Add the numbers in AX and BX, store result in AX
-MOV CX, AX    ; Move the result to register CX
+ADD AX, BX    ; Add the numbers in AX and BX, store the result in AX
+MOV CX, AX; Move the result to register CX
 ; The following code is platform-dependent and prints the value in CX
 ```
 
@@ -103,7 +102,7 @@ print(f"The sum is: {sum}")
   - A way to communicate the task to the processor.
   - Just different ways to represent the same task.
 
-- You are not teaching the task to the processor--you are just specifying the task in a different way. The processor already knows how to add two numbers.
+- You are not teaching the task to the processor--you are just specifying the task differently. The processor already knows how to add two numbers.
 
 
 <hr>
@@ -358,7 +357,7 @@ def solution():
 
 ## TLDR
 
-- Language models like GPT-4 can be thought of as compilers that interpret prompts at various levels of abstraction.
+- Language models like GPT-3.5/4/ChatGPT can be thought of as compilers that interpret prompts at various levels of abstraction.
 
 - Abstractions in programming languages evolve, with examples ranging from machine code to Python.
 
