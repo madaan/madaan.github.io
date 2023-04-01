@@ -97,7 +97,7 @@ print(f"The sum is: {sum}")
 
 <hr>
 
-## Language Models as Compilers
+## Language Models Are Compilers
   
 - A useful way to think about prompting is as another programming language.
 
