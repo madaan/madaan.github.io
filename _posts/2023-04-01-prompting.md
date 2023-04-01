@@ -398,6 +398,9 @@ def solution():
 - [Your LLM has a "virtual machine"](https://github.com/reasoning-machines/prompt-lib/blob/main/notebooks/YoavsPythonPrompts.ipynb)
 
 
+- [Standard interface for completion and conversation](https://github.com/madaan/memprompt/blob/main/CompletionAndChat.ipynb)
+
+
 ### Our recent work on LLMs
 
 - [Self-Refine: Iteratively Enhancing Language Model Outputs through Self-Feedback](https://selfrefine.info)
