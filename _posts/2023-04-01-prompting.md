@@ -8,7 +8,20 @@ blog: "true"
 
 _Or how to think about prompting._
 
-# Abstractions evolve
+
+
+
+<center>
+<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/header.jpg" alt="LLM Compiler" width="300" height="350">
+</center>
+
+
+###### Contents
+{:.no_toc}
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
+
+## Abstractions evolve
 
 
 Here is a simple example of how abstractions evolve. Consider the problem of adding two numbers. Given a specification like "Given two numbers, return their sum", we can write a program that solves this problem at different levels of abstraction.
@@ -134,7 +147,7 @@ Output: The output is
 
 ### Specification with instructions
 
-- "Generate a poem that rhymes with 'cat' and has 10 lines."
+<h4 style="color: red;">Generate a poem that rhymes with 'cat' and has 10 lines."</h4>
 
 
 ```
@@ -145,7 +158,7 @@ It's the cutest thing when it's on your mat.
 ```
 
 
--  "Write a program in Python to test if `n` is prime"
+<h4 style="color: red;">"Write a program in Python to test if `n` is prime"</h4>
 
 ```python
 #Input an integer
@@ -175,7 +188,7 @@ else:
 <li><strong>AKA autocomplete: In addition to or instead of instructions, we can provide examples</strong></li>
 </ul>
 
-<h3>Prompt:</h3>
+<h4 style="color: red;">Prompt:</h4>
 
 ```python
     input_1
@@ -199,7 +212,7 @@ else:
 
 <h3>Example: math reasoning</h3>
 
-<h4>Prompt</h4>
+<h4 style="color: red;">Prompt</h4>
 
 <pre><code class="language-python">Q: Jason had 20 lollipops. He gave Denny some lollipops. 
     Now Jason has 12 lollipops. How many lollipops did Jason
@@ -222,13 +235,14 @@ else:
 - <b>Start playing with the model:</b> [https://platform.openai.com/playground](https://platform.openai.com/playground)
 
 <hr>
+
 <h2> LLMs are <i>stochastic</i> compilers</h2>
 
 - Yes, the LLMs can interpret your instructions and solve the task. BUT...
   - They are not deterministic.
   - They fail
 
-<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/instr_fail.jpg" alt="LLM Compiler" width="600" height="800">
+<img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/instr_fail.jpg" alt="LLM Compiler" width="700" height="800">
 
 - <b>But they listen if you talk nicely to them<b>:
 
@@ -237,7 +251,7 @@ else:
 
 <hr>
 
-## Different programming styles
+## Different prompting (programming) styles
 
 - So far, we have seen two different programming styles:
   - Specification with instructions
@@ -281,9 +295,10 @@ else:
 ### Let's go back to our example of math reasoning
 
 
-#### Text prompt
+<h4 style="color: red;">Text prompt</h4>
 
-<pre><code class="language-python">Q: Jason had 20 lollipops. He gave Denny some lollipops. 
+```python
+Q: Jason had 20 lollipops. He gave Denny some lollipops. 
     Now Jason has 12 lollipops. How many lollipops did Jason
     give to Denny?
     A: The answer is 8
@@ -292,6 +307,7 @@ else:
     Q: There were nine computers in the server room. 
     Five more computers were installed each day, from monday
     to thursday. How many computers are now in the server room?</code></pre>
+```
 
 <h4>    Model completion:</h4>
 
@@ -300,7 +316,7 @@ else:
 
 <center><b>But who says we have to use text?</b></center>
 
-#### Code prompt
+<h4 style="color: red;">Code prompt</h4>
 
 
 ```python
@@ -340,7 +356,7 @@ def solution():
 <hr>
 
 
-## So far
+## TLDR
 
 - Language models like GPT-4 can be thought of as compilers that interpret prompts at various levels of abstraction.
 
@@ -356,7 +372,7 @@ def solution():
 ## Let's get hands-on!
 
 
-- We will use the [OpenAI API](https://platform.openai.com/docs/api-reference/introduction to interact with the LLMs.
+- We will use the [OpenAI API](https://platform.openai.com/docs/api-reference/introduction) to interact with the LLMs.
 
 - [Colab notebook](https://github.com/madaan/memprompt/blob/main/CompletionAndChat.ipynb)
 
