@@ -397,7 +397,15 @@ def solution():
 
 - [Your LLM has a "virtual machine"](https://github.com/reasoning-machines/prompt-lib/blob/main/notebooks/YoavsPythonPrompts.ipynb)
 
-- [Self-refine](https://selfrefine.info)
+
+### Our recent work on LLMs
+
+- [Self-Refine: Iteratively Enhancing Language Model Outputs through Self-Feedback](https://selfrefine.info)
+- [Optimizing Programs by making Targeted Algorithmic Changes](http://pie4perf.com/)
+- [Leveraging Python to Assist Language Models](http://reasonwithpal.com/)
+- [What makes chain-of-thought prompting work?](https://arxiv.org/abs/2209.07686)
+- [Generating Plans from LLMs as Python Programs](https://cocogen.structgen.com/)
+- [Utilizing Memory to Prevent LLMs from Repeating Mistakes](https://memprompt.com)
 
 
 ## Acknowledgements
