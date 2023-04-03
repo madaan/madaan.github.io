@@ -157,7 +157,7 @@ Output: The output is
 
 ### Specification with instructions
 
-<h4 style="color: red;">Generate a poem that rhymes with 'cat' and has 10 lines."</h4>
+<h4 style="color: red;">Generate a poem that rhymes with 'cat' and has 4 lines."</h4>
 
 
 ```
