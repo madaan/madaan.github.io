@@ -54,7 +54,7 @@ MOV CX, AX; Move the result to register CX
 ```
 
 
-- C code: A higher level of abstraction. The program is a sequence of instructions that are executed by the CPU. The instructions are represented as a sequence of keywords.
+- C and Python code: A higher level of abstraction. The program is a sequence of instructions that are executed by the CPU. The instructions are represented as a sequence of keywords.
 
 ```c
 #include <stdio.h>
@@ -67,9 +67,6 @@ int main() {
     return 0;
 }
 ```
-
-
-- Python code: A higher level of abstraction. The program is a sequence of instructions that are executed by the CPU. The instructions are represented as a sequence of keywords.
 
 ```python
 a = 1
