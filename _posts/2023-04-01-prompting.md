@@ -8,7 +8,7 @@ blog: "true"
 
 ---
 
-<i><h4>Or How to Think About Prompting with an Imprecise but Hopefully Helpful Analogy</h4></i>
+#### _Or How to Think About Prompting with an Imprecise but Hopefully Helpful Analogy_
 
 *Originally presented as a tutorial at the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/)*
 
