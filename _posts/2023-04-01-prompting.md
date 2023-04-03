@@ -335,7 +335,7 @@ Q: Jason had 20 lollipops. He gave Denny some lollipops.
    * The Python program can call sympy, matplotlib, sklearn...
    
 
-<span style="color: red;"><h4>Code prompt!</h4></span>
+<h4><span style="color: red;"> Code prompt!</span></h4>
 
 
 ```python
