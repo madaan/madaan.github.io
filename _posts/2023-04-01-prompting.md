@@ -94,7 +94,7 @@ print(f"The sum is: {sum}")
   - **Python code:** A sequence of keywords, interpreter
 
 
-- *Yet, there <span color="red">is</span> a common thread:*
+- *Yet, there <span style="color: red;">is</span> a common thread:*
   - A way to communicate the task to the processor.
   - Just different ways to represent the same task.
 
