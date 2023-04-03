@@ -324,7 +324,7 @@ Q: Jason had 20 lollipops. He gave Denny some lollipops.
 <pre><code class="language-python">A: The answer is 29</code></pre>
 
 
-<center><b>But who says we have to use text?</b></center>
+<center><h3>But who says we have to use text?</h3></center>
 
 <h4 style="color: red;">Code prompt</h4>
 
