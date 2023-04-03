@@ -6,7 +6,15 @@ blog: "true"
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
-_How to Think About Prompting with an Imprecise but Hopefully Helpful Analogy._
+---
+
+#### _Or How to Think About Prompting with an Imprecise but Hopefully Helpful Analogy_
+
+*Originally presented as a tutorial at the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/)*
+
+---
+
+
 
 
 
@@ -48,7 +56,7 @@ MOV CX, AX; Move the result to register CX
 ```
 
 
-- C code: A higher level of abstraction. The program is a sequence of instructions that are executed by the CPU. The instructions are represented as a sequence of keywords.
+- C and Python code: A higher level of abstraction. The program is a sequence of instructions that are executed by the CPU. The instructions are represented as a sequence of keywords.
 
 ```c
 #include <stdio.h>
@@ -62,9 +70,6 @@ int main() {
 }
 ```
 
-
-- Python code: A higher level of abstraction. The program is a sequence of instructions that are executed by the CPU. The instructions are represented as a sequence of keywords.
-
 ```python
 a = 1
 b = 2
@@ -77,7 +82,7 @@ print(f"The sum is: {sum}")
 
 ## Common thread
 
-- There is a task we want to solve.
+- There is a task we want to solve, with some input and output.
 
   - **Task:** Add two numbers
   - **Input:** Two numbers
@@ -91,11 +96,13 @@ print(f"The sum is: {sum}")
   - **Python code:** A sequence of keywords, interpreter
 
 
-- *Yet, there <span color="red">is</span> a common thread:*
-  - A way to communicate the task to the processor.
+- *Yet, there <span style="color: red;">is</span> a common thread:*
+
+  - A program is a way to communicate the task to the processor.
+
   - Just different ways to represent the same task.
 
-- You are not teaching the task to the processor--you are just specifying the task differently. The processor already knows how to add two numbers.
+#### You are not teaching the task to the processor--you are just specifying the task differently. The processor already knows how to add two numbers.
 
 <hr>
 
@@ -135,7 +142,8 @@ Output: The output is
 - If language models are compilers, what's the processor?
   - The GPU! The language model converts natural language into a sequence of matrix operations and non-linearities that the GPU can execute.
   
-  - If you are not convinced, you can perhaps think about [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array). 
+  - If you are not convinced, you can perhaps think about [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array).
+
     - FPGAs are programmable processors that can be programmed to execute arbitrary logic. When you write code for an FPGA, you're essentially changing the connections between its logic gates, thus dictating the flow of information through the processor. The FPGA is the processor and you write code to change the connections between the logic gates.
     - Similarly, the "prompts" you write affect the activations in the language model, and similarly change the flow of information through the language model. The language model is the processor and you write code to change the connections between the neurons.
 
@@ -151,7 +159,7 @@ Output: The output is
 
 ### Specification with instructions
 
-<h4 style="color: red;">Generate a poem that rhymes with 'cat' and has 10 lines."</h4>
+<h4 style="color: red;">Generate a poem that rhymes with 'cat' and has 4 lines."</h4>
 
 
 ```
@@ -318,9 +326,18 @@ Q: Jason had 20 lollipops. He gave Denny some lollipops.
 <pre><code class="language-python">A: The answer is 29</code></pre>
 
 
-<center><b>But who says we have to use text?</b></center>
+<center><h1>But we don't have to use plain boring text always!</h1></center>
 
-<h4 style="color: red;">Code prompt</h4>
+
+* We can supply examples of text → Python program.
+
+* LLM is prompted to generate code (Python). You can then run the Python script using a runtime!
+
+   * Opens up tons of possibilities.
+   * The Python program can call sympy, matplotlib, sklearn...
+   
+
+<h4><span style="color: red;"> Code prompt!</span></h4>
 
 
 ```python
@@ -388,7 +405,7 @@ def solution():
 
 - A nice [survey](https://arxiv.org/abs/2107.13586) of prompting. A great read especially if you are interested in understanding where NLP was before prompting.
 
-- Another great [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) from Lillian on recent prompt engineering techniques.
+- Another great [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) from Lilian on recent prompt engineering techniques.
 
 <hr>
 
@@ -418,7 +435,7 @@ def solution():
 
 ## Acknowledgements
 
-- The blog was originally written for the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/). Thanks to the organizers for the opportunity to present the material.
+- The blog was originally written for a tutorial conducted at the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/). Thanks to the organizers for the opportunity!
 
 - Thanks to [Adithya Pratapa](https://adithya7.github.io/) for proofeading the first draft.
 
