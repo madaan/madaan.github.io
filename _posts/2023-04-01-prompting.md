@@ -80,7 +80,7 @@ print(f"The sum is: {sum}")
 
 ## Common thread
 
-- There is a task we want to solve.
+- There is a task we want to solve, with some input and output.
 
   - **Task:** Add two numbers
   - **Input:** Two numbers
