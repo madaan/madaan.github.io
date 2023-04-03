@@ -95,7 +95,9 @@ print(f"The sum is: {sum}")
 
 
 - *Yet, there <span style="color: red;">is</span> a common thread:*
-  - A way to communicate the task to the processor.
+
+  - A program is a way to communicate the task to the processor.
+
   - Just different ways to represent the same task.
 
 #### You are not teaching the task to the processor--you are just specifying the task differently. The processor already knows how to add two numbers.
@@ -138,7 +140,8 @@ Output: The output is
 - If language models are compilers, what's the processor?
   - The GPU! The language model converts natural language into a sequence of matrix operations and non-linearities that the GPU can execute.
   
-  - If you are not convinced, you can perhaps think about [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array). 
+  - If you are not convinced, you can perhaps think about [FPGAs](https://en.wikipedia.org/wiki/Field-programmable_gate_array).
+
     - FPGAs are programmable processors that can be programmed to execute arbitrary logic. When you write code for an FPGA, you're essentially changing the connections between its logic gates, thus dictating the flow of information through the processor. The FPGA is the processor and you write code to change the connections between the logic gates.
     - Similarly, the "prompts" you write affect the activations in the language model, and similarly change the flow of information through the language model. The language model is the processor and you write code to change the connections between the neurons.
 
@@ -391,7 +394,7 @@ def solution():
 
 - A nice [survey](https://arxiv.org/abs/2107.13586) of prompting. A great read especially if you are interested in understanding where NLP was before prompting.
 
-- Another great [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) from Lillian on recent prompt engineering techniques.
+- Another great [blog](https://lilianweng.github.io/posts/2023-03-15-prompt-engineering/) from Lilian on recent prompt engineering techniques.
 
 <hr>
 
@@ -421,7 +424,7 @@ def solution():
 
 ## Acknowledgements
 
-- The blog was originally written for the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/). Thanks to the organizers for the opportunity to present the material.
+- The blog was originally written for a tutorial conducted at the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/). Thanks to the organizers for the opportunity!
 
 - Thanks to [Adithya Pratapa](https://adithya7.github.io/) for proofeading the first draft.
 
