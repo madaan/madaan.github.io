@@ -98,7 +98,7 @@ print(f"The sum is: {sum}")
   - A way to communicate the task to the processor.
   - Just different ways to represent the same task.
 
-- You are not teaching the task to the processor--you are just specifying the task differently. The processor already knows how to add two numbers.
+#### You are not teaching the task to the processor--you are just specifying the task differently. The processor already knows how to add two numbers.
 
 <hr>
 
