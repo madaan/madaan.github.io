@@ -6,7 +6,7 @@ blog: "true"
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
-_How to Think About Prompting with an Imprecise but Hopefully Helpful Analogy._
+_Or How to Think About Prompting with an Imprecise but Hopefully Helpful Analogy._
 
 
 
