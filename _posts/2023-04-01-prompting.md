@@ -326,6 +326,15 @@ Q: Jason had 20 lollipops. He gave Denny some lollipops.
 
 <center><h1>But we don't have to use plan boring text always!</h1></center>
 
+
+* We can supply examples of text → Python program.
+
+* LLM is prompted to generate code (Python). You can then run the Python script using a runtime!
+
+   * Opens up tons of possibilities.
+   * The Python program can call sympy, matplotlib, sklearn...
+   
+
 <span style="color: red;"><h4>Code prompt!</h4></span>
 
 
