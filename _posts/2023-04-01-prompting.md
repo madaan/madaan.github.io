@@ -6,8 +6,13 @@ blog: "true"
 ---
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
+---
 _Or How to Think About Prompting with an Imprecise but Hopefully Helpful Analogy._
+---
 
+
+
+*Originally presented as a tutorial at the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/)*
 
 
 <center>
