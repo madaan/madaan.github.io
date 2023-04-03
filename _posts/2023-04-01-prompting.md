@@ -25,10 +25,14 @@ blog: "true"
 
 #### TLDR: Large Language models can be thought of as compilers, with prompts being programs written in a high-level language. Like with programming, prompts can be written in different programming styles, such as by specifying instructions or a few examples or using alternative formats like code. Language models are stochastic compilers, and programs (i.e., prompts) may require trial and error to produce the desired output.
 
+<hr>
+
 ###### Contents
 {:.no_toc}
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
+
+<hr>
 
 ## The Evolution of Abstractions in Programming
 
