@@ -22,8 +22,9 @@ blog: "true"
 <img src="https://raw.githubusercontent.com/madaan/madaan.github.io/master/images/llm_compiler/header.jpg" alt="LLM Compiler" width="300" height="300">
 </center>
 
-
-#### TLDR: Large Language models can be thought of as compilers, with prompts being programs written in a high-level language. Like programs, prompts can be written in different styles, such as by specifying instructions or a few examples or using alternative formats like code. Language models are stochastic compilers, and programs (i.e., prompts) may require trial and error to produce the desired output.
+{:.no_toc}
+#### TLDR: Large Language models can be thought of as compilers, with prompts being programs written in a high-level language. Like programs, prompts can be written in different styles, such as by specifying instructions or a few examples or using alternative formats like code. Language models are stochastic, and programs (i.e., prompts) may require trial and error to produce the desired output.
+{:toc}
 
 <hr>
 
