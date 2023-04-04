@@ -1,6 +1,6 @@
 ---
 layout: post
-title: LLMs Are Compilers 
+title: LLMs Are Stochastic Compilers 
 root: "../"
 blog: "true"
 ---
