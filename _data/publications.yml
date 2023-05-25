@@ -1,3 +1,13 @@
+- title: "PAL: Program-aided Language Models"
+  year: 2023
+  authors: "Luyu Gao*, Aman Madaan*, Shuyan Zhou*, Uri Alon1, Pengfei Liu1,2, Yiming Yang1, Jamie Callan1 Graham Neubig"
+  conference: "International Conference on Machine Learning"
+  org: ICML
+  code: https://reasonwithpal.com/
+  abstract: "We present Program-Aided Language models (PAL): a new method that uses the LLM to read natural language problems and generate programs as the intermediate reasoning steps, but offloads the solution step to a programmatic runtime such as a Python interpreter."
+  pdf: "https://arxiv.org/abs/2211.10435"
+
+
 - title: "Learning Performance Improving Code Edits"
   year: 2023
   authors: "Aman Madaan, Alexander Shypula, Uri Alon, Milad Hashemi, Parthasarathy Ranganathan, Yiming Yang, Graham Neubig, Amir Yazdanbakhsh"
