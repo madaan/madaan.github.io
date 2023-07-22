@@ -1,5 +1,14 @@
+- title: Code-Assisted Reasoning with LLMs
+  year: Jun 2023
+  venue: Cohere AI Talk, Cohere For AI Regional Asia group
+  talk: "https://github.com/madaan/madaan.github.io/blob/master/res/presentations/code_assisted_reasoning_c4ai.pdf"
+
+- title: Self-Refining and Program-Aided Language Models
+  year: April 2023
+  venue: NVIDIA NLP Reading Group
+
 - title: Using (Human) Feedback for Training LLMs
-  year: Feb 2022
+  year: Feb 2023
   venue: Yiming Yang's Lab Seminar
   talk: "https://madaan.github.io/res/presentations/using_human_feedback_for_training_lms.pdf"
 
