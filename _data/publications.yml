@@ -1,7 +1,7 @@
 - title: "Self-Refine: Iterative Refinement with Self-Feedback"
   year: 2023
   authors: "Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, Sean Welleck, Bodhisattwa Prasad Majumder, Shashank Gupta, Amir Yazdanbakhsh, Peter Clark."
-  conference: "Conference on Neural Information Processing Systems (\textbf{NeurIPS})"
+  conference: "Conference on Neural Information Processing Systems"
   org: NeurIPS
   code: https://selfrefine.info/
   abstract: "Self-Refine is a novel approach that allows LLMs to iteratively refine outputs and incorporate feedback along multiple dimensions to improve performance on diverse tasks. Unlike prior work, it does not require supervised training data or reinforcement learning, and works with a single LLM."
