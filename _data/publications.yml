@@ -1,3 +1,20 @@
+- title: "What Makes Chain-of-Thought Prompting Effective? A Counterfactual Study"
+  year: 2023
+  authors: "Aman Madaan, Katherine Hermann, Amir Yazdanbakhsh"
+  conference: "EMNLP (Findings) 2023"
+  org: EMNLP
+  abstract: "The effectiveness of Chain-of-thought prompting (CoT) has been widely recognized, but the underlying mechanisms behind its success, the reason why _it just works_ for a wide range of tasks, remains an open question. To investigate this, we employ a counterfactual prompting approach, systematically manipulating elements of examples used in a few-shot prompt, and testing the consequences on model behavior. This allows us to understand the relative contributions of prompt elements such as symbols (digits, entities) and patterns (equations, sentence structure) on in-context learning. Our experiments with three different large language models (LLMs) reveal several key findings. First, the specific symbols used in the prompt do not significantly impact the model's performance. However, consistent patterns in examples and specifying text in style frequently found on the web are crucial. Second, our findings suggest that the necessity of accurate few-shot examples depends on their role in communicating task understanding. We identify tasks where inaccurate few-shot examples hurt and, surprisingly, tasks where they improve performance. Additionally, we find that the intermediate steps in CoT may not necessarily facilitate learning how to solve a task, but instead efficiently convey task understanding (what) to the model. Furthermore, CoT leverages LLMs to fill in missing commonsense information, particularly helping difficult reasoning problems and long-tail questions."
+  pdf: "https://arxiv.org/pdf/2209.07686.pdf"
+
+- title: "Let's Sample Step by Step: Adaptive-Consistency for Efficient Reasoning and Coding with LLMs"
+  year: 2023
+  authors: "Pranjal Aggarwal, Aman Madaan, Yiming Yang, Mausam"
+  conference: "EMNLP 2023"
+  org: EMNLP
+  code: https://github.com/Pranjal2041/AdaptiveConsistency
+  abstract: "A popular approach for improving the correctness of output from large language models (LLMs) is Self-Consistency - poll the LLM multiple times and output the most frequent solution. Existing Self-Consistency techniques always generate a constant number of samples per question, where a better approach will be to non-uniformly distribute the available budget based on the amount of agreement in the samples generated so far. In response, we introduce Adaptive-Consistency, a cost-efficient, model-agnostic technique that dynamically adjusts the number of samples per question using a lightweight stopping criterion. Our experiments over 17 reasoning and code generation datasets and three LLMs demonstrate that Adaptive-Consistency reduces sample budget by up to 7.9 times with an average accuracy drop of less than 0.1%"
+  pdf: "https://arxiv.org/pdf/2305.11860.pdf"
+
 - title: "Self-Refine: Iterative Refinement with Self-Feedback"
   year: 2023
   authors: "Aman Madaan, Niket Tandon, Prakhar Gupta, Skyler Hallinan, Luyu Gao, Sarah Wiegreffe, Uri Alon, Nouha Dziri, Shrimai Prabhumoye, Yiming Yang, Sean Welleck, Bodhisattwa Prasad Majumder, Shashank Gupta, Amir Yazdanbakhsh, Peter Clark."
@@ -10,7 +27,7 @@
 - title: "Bridging the gap: A survey on integrating (human) feedback for natural language generation"
   year: 2023
   authors: "Patrick Fernandes, Aman Madaan, Emmy Liu, António Farinhas, Pedro Henrique Martins, Amanda Bertsch, José G. C. de Souza, Shuyan Zhou, Tongshuang Wu, Graham Neubig, André F. T. Martins"
-  conference: "Transactions of the Association for Computational Linguistics"
+  conference: "Transactions of the Association for Computational Linguistics, to be presented at EMNLP 2023"
   org: TACL
   abstract: "Many recent advances in natural language generation have been fueled by training large language models on internet-scale data. However, this paradigm can lead to models that generate toxic, inaccurate, and unhelpful content, and automatic evaluation metrics often fail to identify these behaviors. As models become more capable, human feedback is an invaluable signal for evaluating and improving models. This survey aims to provide an overview of the recent research that has leveraged human feedback to improve natural language generation. First, we introduce an encompassing formalization of feedback, and identify and organize existing research into a taxonomy following this formalization. Next, we discuss how feedback can be described by its format and objective, and cover the two approaches proposed to use feedback (either for training or decoding): directly using the feedback or training feedback models. We also discuss existing datasets for human-feedback data collection, and concerns surrounding feedback collection. Finally, we provide an overview of the nascent field of AI feedback, which exploits large language models to make judgments based on a set of principles and minimize the need for human intervention."
   pdf: "https://arxiv.org/abs/2305.00955"
