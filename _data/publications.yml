@@ -191,14 +191,3 @@ Specifically, we use Graph Convolutional Networks to learn structurally informed
   talk: "https://madaan.github.io/res/presentations/aaai-presentation-final.pdf"
   org: AAAI
   org-url: "https://www.aaai.org/"
-
-
-- title: "Design and implementation of a high performance computing system using distributed compilation"
-  authors: "Sunil Kr Singh, Aman Madaan, Ankur Aggarwal, and Ankur Dewan"
-  conference: "Advances in Computing, Communications and Informatics (ICACCI)"
-  year: 2013
-  org: ICACCI
-  org-url: http://icacci-conference.org/2018/
-  pdf: "https://madaan.github.io/res/papers/distcc-cluster.pdf"
-  publication: "https://ieeexplore.ieee.org/document/6637374"
-  abstract: "The idea of using the idle resources of a system for some other useful purpose is not new. seti@home pioneered this concept of “public resource computing” by bringing together millions of users worldwide who were ready to donate their idle CPU cycles to the cause of searching the extra terrestrial intelligence. In this paper, we describe a system that uses the same concept for reducing build times by using free cycles on idle computer systems in computer labs of our institute. The challenge of distributing compilation is tackled by a distributing compiler. We use distcc for the purpose. The challenge then is to design a system that keeps track of free helpers, dividing the work fairly among the helpers and most importantly, providing an intuitive interface to the clients who would use the system oblivious of the complexities of the back end."
