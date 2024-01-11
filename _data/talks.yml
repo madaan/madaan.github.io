@@ -1,3 +1,13 @@
+- title: Reasoning with (Large) Language Models
+  year: Oct 2023
+  venue: IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI 2023), Tutorial Slides and Code
+  talk: "https://github.com/madaan/llm-reasoning-tutorial"
+
+- title: Complex Few-shot Reasoning with LLMs
+  year: July 2023
+  venue: ACL, Tutorial Slides
+  talk: "https://docs.google.com/presentation/d/1oa8ZyMh327OM44AAHI_-tAyAnKuT2jBSDDRHi6QlOtQ/edit?usp=sharing&resourcekey=0-rlTwNGBzaNQNRd0aRHrDpA"
+
 - title: Code-Assisted Reasoning with LLMs
   year: Jun 2023
   venue: Cohere AI Talk, Cohere For AI Regional Asia group
