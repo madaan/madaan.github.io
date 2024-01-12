@@ -8,7 +8,7 @@ layout: page
  </head>
  <article class="post-content publications clearfix">
 
-<h2 id="publications">Recent talks</h2>
+<h2 id="publications">Recent talks/tutorials</h2>
 <ol class="bibliography">
 {% for pub in site.data.talks %}
 <li> <span class="title">{{pub.title}}, {{pub.venue}}, {{pub.year}} [<a href="{{pub.talk}}">slides</a>]</span>
