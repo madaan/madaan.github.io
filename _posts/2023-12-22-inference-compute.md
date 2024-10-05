@@ -47,7 +47,7 @@ It is more interesting to parameterize a different distribution $$P_{lm + X}(x)$
 
 ---
 
-**Acknowledgements:** Thanks to [Omar Khattab](https://omarkhattab.com/) for the helpful brainstorming meetings. We were planning to write a paper on this back in December 2023 (after meeting at Neurips), but couldn't find the time.
+**Acknowledgements:** Thanks to [Omar Khattab](https://omarkhattab.com/) for the helpful brainstorming meetings. We were planning to write a paper on this back in December 2023 (after meeting at Neurips), but couldn't find the time. I believe [DSPy](https://github.com/stanfordnlp/dspy) represents one approach to creating the transformations discussed in this post.
 
 <!-- 
 ### How do you create such transforms?
