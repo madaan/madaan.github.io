@@ -21,7 +21,7 @@ html {
 
 body {
   background: $offWhite;
-  font: 16px/1.7 $body-font;
+  font: 16px/1.75 $body-font;
   color: $darkGray;
   display: flex;
   min-height: 100vh;
@@ -32,13 +32,13 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 780px;
-  padding: 0 20px;
+  max-width: 820px;
+  padding: 0 28px;
   width: 100%;
 }
 
 #main.container {
-  padding-bottom: 5rem;
+  padding-bottom: 6rem;
   flex: 1;
 }
 
@@ -46,17 +46,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: $heading-font;
   color: $navy;
   font-weight: 600;
-  line-height: 1.5;
-  margin: 1em 0 15px;
+  line-height: 1.4;
+  margin: 1.2em 0 0.6em;
   padding: 0;
 
   @include mobile {
-    line-height: 1.4;
+    line-height: 1.3;
   }
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
   a {
     color: inherit;
@@ -68,16 +68,16 @@ h2 {
 }
 
 h3 {
-  font-size: 19px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 16px;
   color: $gray;
 }
 
 p {
-  margin: 15px 0;
+  margin: 12px 0;
 }
 
 a {
@@ -91,23 +91,35 @@ a {
   }
 }
 
-// Animated underline for links in content
-article a, .post a, #main p a {
+// Animated underline for content links
+.profile-text a,
+.post .entry a,
+.page .entry a,
+.post-content a {
   background-image: linear-gradient($accent, $accent);
   background-position: 0% 100%;
   background-repeat: no-repeat;
-  background-size: 0% 1.5px;
+  background-size: 0% 1px;
   transition: background-size 0.3s ease, color 0.2s ease;
+  padding-bottom: 1px;
 
   &:hover {
-    background-size: 100% 1.5px;
+    background-size: 100% 1px;
     color: $accent-hover;
   }
 }
 
+// Exclude toggles and special links from underline
+.more-toggle,
+.site-name,
+nav a,
+.wrapper-footer a {
+  background-image: none !important;
+}
+
 ul, ol {
-  margin: 15px 0;
-  padding-left: 30px;
+  margin: 12px 0;
+  padding-left: 28px;
 }
 
 ul {
@@ -138,18 +150,18 @@ img {
   max-width: 100%;
 }
 
-// Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
 }
 
 .date {
-  font-style: italic;
+  font-size: 13px;
   color: $gray;
-  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
-// Specify the color of the selection
+// Selection
 ::-moz-selection {
   color: $white;
   background: $accent;
@@ -159,15 +171,28 @@ img {
   background: $accent;
 }
 
-// Nicolas Gallagher's micro clearfix hack
+// Clearfix
 .clearfix:before,
 .clearfix:after {
     content: " ";
     display: table;
 }
-
 .clearfix:after {
     clear: both;
+}
+
+// Inline code
+code {
+  font-family: $mono;
+  font-size: 0.9em;
+  background: rgba(0, 0, 0, 0.04);
+  padding: 2px 6px;
+  border-radius: 3px;
+}
+
+pre code {
+  background: none;
+  padding: 0;
 }
 
 /*********************/
@@ -181,10 +206,11 @@ img {
 .wrapper-masthead {
   margin-bottom: 40px;
   background: $navy;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .masthead {
-  padding: 24px 0;
+  padding: 18px 0;
   border-bottom: none;
   display: flex;
   align-items: center;
@@ -193,18 +219,17 @@ img {
   @include mobile {
     flex-direction: column;
     text-align: center;
-    gap: 8px;
+    gap: 10px;
   }
 }
 
 .site-name {
   font-family: $heading-font;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 600;
   color: $white;
   letter-spacing: 0.3px;
   transition: color 0.2s ease;
-  background-image: none !important;
 
   &:hover {
     color: $accent;
@@ -212,36 +237,29 @@ img {
 }
 
 nav {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+
+  @include mobile {
+    gap: 20px;
+  }
+
   a {
     font-family: $heading-font;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 28px;
-    color: $white;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
     letter-spacing: 0.3px;
     transition: color 0.2s ease;
-    background-image: none !important;
 
     &:hover {
-      color: $accent;
+      color: $white;
     }
 
     @include mobile {
-      margin: 0 12px;
+      font-size: 14px;
     }
-  }
-}
-
-.hero-name {
-  font-family: $heading-font;
-  font-size: 24px;
-  font-weight: 600;
-  color: $navy;
-  margin: 0 0 4px 0;
-  line-height: 1.3;
-
-  @include mobile {
-    font-size: 20px;
   }
 }
 
@@ -249,24 +267,47 @@ nav {
 // .main
 //
 
+// Page titles
+.page > h1,
+.post > h1 {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px solid $lightGray;
+}
+
+// Blog post list
 .posts > .post {
-  padding-bottom: 2em;
+  padding: 1.5em 0;
   border-bottom: 1px solid $lightGray;
+
+  h2 {
+    margin: 0 0 4px 0;
+    font-size: 20px;
+
+    a {
+      color: $navy;
+      &:hover {
+        color: $accent;
+      }
+    }
+  }
 }
 
 .posts > .post:last-child {
-  padding-bottom: 1em;
   border-bottom: none;
 }
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
+    margin: 1.5em 0;
     border-left: 3px solid $accent;
-    padding: 0.1em 1em;
+    padding: 0.5em 1.2em;
     color: $gray;
-    font-size: 20px;
+    font-size: 17px;
     font-style: italic;
+    background: rgba(0, 0, 0, 0.02);
+    border-radius: 0 4px 4px 0;
   }
 
   .comments {
@@ -275,9 +316,10 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 600;
     color: $accent;
+    letter-spacing: 0.5px;
   }
 }
 
@@ -289,7 +331,7 @@ nav {
   display: flex;
   align-items: flex-start;
   gap: 40px;
-  margin-top: 10px;
+  margin-top: 0;
 
   @include mobile {
     flex-direction: column-reverse;
@@ -300,29 +342,44 @@ nav {
 
 .profile-text {
   flex: 1;
+
+  p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+  }
 }
 
 .profile-photo {
   flex-shrink: 0;
+  margin-top: 4px;
 
   img {
-    width: 200px;
+    width: 190px;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+      box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+    }
   }
 
   @include mobile {
     img {
-      width: 160px;
+      width: 150px;
     }
   }
 }
 
 .more-toggle {
+  display: inline-block;
   color: $accent;
   cursor: pointer;
   font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.3px;
   transition: color 0.2s ease;
 
   &:hover {
@@ -344,8 +401,221 @@ nav {
   hr {
     border: none;
     border-top: 1px solid $lightGray;
-    margin: 8px 0 16px 0;
+    margin: 12px 0 16px 0;
   }
+
+  p {
+    font-size: 14px;
+    color: $gray;
+  }
+}
+
+//
+// Publications
+//
+
+.publications {
+  h2 {
+    color: $navy;
+    font-size: 24px;
+    margin-bottom: 24px;
+    text-align: left;
+  }
+}
+
+.year {
+  border-top: 1px solid $lightGray;
+  color: $gray;
+  margin: 0 -3em -2.5ex -2em;
+  padding-top: 1ex;
+  text-align: right;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bibliography {
+  margin-bottom: 40px;
+  margin-top: 16px;
+  list-style-type: none;
+  padding-left: 0;
+
+  li {
+    margin: 16px 0;
+    padding: 14px 16px;
+    position: relative;
+    background: $white;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: box-shadow 0.2s ease;
+
+    &:hover {
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+    }
+
+    span { display: block; }
+
+    .title {
+      font-weight: 600;
+      color: $navy;
+      font-size: 15px;
+      margin-bottom: 4px;
+    }
+
+    .author {
+      font-size: 14px;
+      color: $gray;
+      margin-bottom: 2px;
+
+      a {
+        border-bottom: 1px dashed $accent;
+        &:hover {
+          border-bottom-style: solid;
+          text-decoration: none;
+        }
+      }
+      > em {
+        border-bottom: 1px solid;
+        font-style: normal;
+      }
+    }
+
+    .periodical {
+      font-size: 14px;
+      color: $gray;
+    }
+
+    .links {
+      margin-top: 6px;
+      font-size: 13px;
+
+      a {
+        color: $accent;
+        &:hover {
+          color: $accent-hover;
+        }
+      }
+    }
+
+    a.abstract, a.bibtex { cursor: pointer; }
+
+    .hidden {
+      font-size: 13px;
+      max-height: 0px;
+      overflow: hidden;
+      text-align: justify;
+      transition: all 0.2s ease;
+
+      p {
+        line-height: 1.6;
+        margin: 10px 0;
+        color: $gray;
+      }
+      pre {
+        font-size: 0.9em;
+        line-height: 1.4em;
+        padding: 10px;
+      }
+    }
+    .hidden.open {
+      max-height: 100em;
+      transition: all 0.2s ease;
+    }
+    span.abstract.hidden {
+      border: dashed 1px transparent;
+    }
+    span.abstract.hidden.open {
+      border-color: $lightGray;
+      background: $offWhite;
+      border-radius: 4px;
+      padding: 8px 12px;
+      margin-top: 8px;
+    }
+  }
+
+  abbr {
+    position: absolute;
+    left: -7em;
+
+    a {
+      font-size: 12px;
+      font-weight: 600;
+      color: $accent;
+      text-decoration: none;
+    }
+  }
+}
+
+//
+// Code highlighting
+//
+
+.highlight {
+  background-color: #f8f8f8;
+  padding: 12px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  box-shadow: none;
+  margin: 20px 0;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+//
+// Scroll to top
+//
+
+.scrollUpButton {
+  display: none;
+  opacity: 0.7;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: $navy;
+  color: $white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: opacity 0.2s ease;
+  z-index: 100;
+}
+
+.scrollUpButton:hover,
+.scrollUpButton:focus {
+  outline: none;
+  text-decoration: none;
+  color: $white;
+  opacity: 1;
+}
+
+.icon-up:before {
+  content: "\21E7";
+}
+
+//
+// Tags
+//
+
+.post-tag {
+  display: inline-block;
+  padding: 2px 10px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  border-radius: 3px;
+  color: $accent;
+  font-family: $body-font;
+  font-size: 13px;
+  border: 1px solid rgba($accent, 0.3);
+  transition: all 0.15s ease;
+}
+
+.post-tag:hover,
+.post-tag.clicked {
+  text-decoration: none;
+  background: $accent;
+  color: $white;
+  border-color: $accent;
 }
 
 //
@@ -354,7 +624,7 @@ nav {
 
 .wrapper-footer {
   background-color: $navy;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.45);
   font-size: 12px;
   width: 100%;
   bottom: 0;
@@ -362,8 +632,7 @@ nav {
   height: 5rem;
 
   a {
-    color: rgba(255, 255, 255, 0.7);
-    background-image: none !important;
+    color: rgba(255, 255, 255, 0.6);
     transition: color 0.2s ease;
 
     &:hover {
@@ -373,11 +642,10 @@ nav {
 }
 
 footer {
-  padding: 14px 0;
+  padding: 16px 0;
   text-align: center;
 }
 
-// Settled on moving the import of syntax highlighting to the bottom of the CSS
-// ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
+// Syntax highlighting colors
 @import "highlights";
 @import "svg-icons";

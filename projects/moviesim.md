@@ -4,7 +4,7 @@ title: "MovieSim"
 ---
 
 ### Objective
-- [Gran Torino](https://www.imdb.com/title/tt1205489/) and [Harry Brown](https://www.imdb.com/title/tt1289406/) are _similar movies_. If you like one, you _may_ like the other<a href="#comment">¹</a>. The similarity is not based on "similar users" rating both the movies highly (though that could be happening), but is based on the fact that both the movies involve a lonely, retired person with a military background takes the responsibbility of delivering justice to those who have been wronged in their own hands.
+- [Gran Torino](https://www.imdb.com/title/tt1205489/) and [Harry Brown](https://www.imdb.com/title/tt1289406/) are _similar movies_. If you like one, you _may_ like the other<a href="#comment">¹</a>. The similarity is not based on "similar users" rating both the movies highly (though that could be happening), but is based on the fact that both the movies involve a lonely, retired person with a military background takes the responsibility of delivering justice to those who have been wronged in their own hands.
 
 - Given a movie, recommend other movies that have similar plots.
 

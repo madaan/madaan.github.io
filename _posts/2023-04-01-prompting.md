@@ -442,6 +442,6 @@ def solution():
 
 - The blog was originally written for a tutorial conducted at the [CMU-LTI Seminar](https://www.cmu-lti-llm.org/). Thanks to the organizers for the opportunity!
 
-- Thanks to [Adithya Pratapa](https://adithya7.github.io/) for proofeading the first draft.
+- Thanks to [Adithya Pratapa](https://adithya7.github.io/) for proofreading the first draft.
 
 - Thanks to GPT-4 for generating some examples for this blog.

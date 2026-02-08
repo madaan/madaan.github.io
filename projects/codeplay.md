@@ -11,12 +11,12 @@ layout: page
 
 The protagonist of the game is a character named "Codee". Codee is a free spirited kid from the land of microprocessors who lost his way while exploring the world. Now Codee doesn't know the way back home, but he's very fast at following the orders that are given to him. The goal of the game is to help Codee get back home (_yeah, the backstory is very original_). 
 
-The game starts with a simple level wherein the playes just need to get Codee from point A to point B with some simple commands like _move 5 units_, _jump 3 units_ and so on. Things get interesting in the higher levels as players are forced to think about primitives like loops and conditionals in order to get the job done with minimal effort.
+The game starts with a simple level wherein the players just need to get Codee from point A to point B with some simple commands like _move 5 units_, _jump 3 units_ and so on. Things get interesting in the higher levels as players are forced to think about primitives like loops and conditionals in order to get the job done with minimal effort.
 
 A critical feature of the game was allowing the users to write commands flexibly. The score is calculated based on the amount of progress made as well as the quality of commands (code). For example, if there is a step pattern with 10 steps of height 5, players can either manually write "jump 5", "jump 5", ..., 10 times or use a loop construct to say "repeat 10 times jump 5". Latter will bag more points than the former.
 
 
-I led the team of 3 for the project. [Rishab](httpss://www.linkedin.com/in/rishabarora) helped me with some the graphics and [Rakshit](https://www.linkedin.com/in/rakshitsareen) helped in making sure the game was bug free.
+I led the team of 3 for the project. [Rishab](https://www.linkedin.com/in/rishabarora) helped me with some the graphics and [Rakshit](https://www.linkedin.com/in/rakshitsareen) helped in making sure the game was bug free.
 
 ---
 
@@ -77,5 +77,5 @@ The game was developed as an entry to TCS Mobeel 2012, a countrywide competition
 </figure>
 
 
-If you have an Android phone, you can download [the APK](httpss://madaan.github.io/res/artifacts/CodePlay.apk). I have a single user trial running [here](https://appetize.io/app/ca9buxr2wbftzt4pyrfp1v2t5c). The code, including the Codee language parser are properties of TCS due to the competition hence I cannot share them. However, if you are interested in the project and want to talk about it, please feel free to reach out to me. 
+If you have an Android phone, you can download [the APK](https://madaan.github.io/res/artifacts/CodePlay.apk). I have a single user trial running [here](https://appetize.io/app/ca9buxr2wbftzt4pyrfp1v2t5c). The code, including the Codee language parser are properties of TCS due to the competition hence I cannot share them. However, if you are interested in the project and want to talk about it, please feel free to reach out to me. 
 

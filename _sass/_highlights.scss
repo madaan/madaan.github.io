@@ -1,17 +1,18 @@
 
 .highlight {
-  background-color: #efefef;
-  padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
-  margin: 20px 0 20px 0;
-  overflow: scroll;
+  background-color: #f8f8f8;
+  padding: 12px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  box-shadow: none;
+  margin: 20px 0;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
+  font-family: $mono;
 }
 
 .highlight .c { color: #586E75 } /* Comment */
@@ -83,109 +84,69 @@ code {
 .highlight .vi { color: #268BD2 } /* Name.Variable.Instance */
 .highlight .il { color: #2AA198 } /* Literal.Number.Integer.Long */
 .post-tag {
-    color: #2AA198
+  display: inline-block;
+  padding: 2px 10px;
+  margin-right: 6px;
+  margin-bottom: 4px;
+  border-radius: 3px;
+  color: $accent;
+  font-family: $body-font;
+  font-size: 13px;
+  border: 1px solid rgba($accent, 0.3);
+  transition: all 0.15s ease;
 }
 
-.post-tag{
-    display:inline-block;
-    //background:rgba(106,159,181,0.15);
-    padding:0 .5rem;
-    margin-right:.5rem;
-    border-radius:4px;
-    color:#6a9fb5;
-    font-family:"PT Sans",Helvetica,Arial,sans-serif;
-    font-size:90%;
-    -webkit-transition:all 0.1s ease-in-out;
-    -moz-transition:all 0.1s ease-in-out;
-    transition:all 0.1s ease-in-out
-}
-.post-tag:before{
-    content:"\f02b";
-    font-family:FontAwesome;
-    padding-right:.5em
-}
-.post-tag.clicked:before{
-    content:"\25A3";
-    font-family:FontAwesome;
-    padding-right:.5em
-}
-.post-tag.clicked{
-    text-decoration:none;
-    background:#6a9fb5;
-    color:#fff
+.post-tag:hover,
+.post-tag.clicked {
+  text-decoration: none;
+  background: $accent;
+  color: $white;
+  border-color: $accent;
 }
 
-.post-tag:hover{
-    text-decoration:none;
-    background:#6a9fb5;
-    color:#fff
+.tags-expo .tags-expo-section ul {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 0;
 }
 
-
-.tags-expo :target:before{
-    content:"";
-    display:block;
-    height:72px;
-    margin:-72px 0 0
-}
-@media (min-width: 38em){
-    .tags-expo .tags-expo-list{
-        font-size:0.9rem
-    }
-    .tags-expo .tags-expo-list .post-tag{
-        margin:.2em .3em
-    }
-}
-.tags-expo .tags-expo-section{
-    font-family:"PT Sans",Helvetica,Arial,sans-serif
-}
-.tags-expo .tags-expo-section ul{
-    list-style-type:circle;
-    list-style-position:inside;
-    padding:0
-}
-.tags-expo .tags-expo-section ul li{
-    -webkit-transition:all 0.1s ease-in-out;
-    -moz-transition:all 0.1s ease-in-out;
-    transition:all 0.1s ease-in-out;
-    padding:0 1rem
-}
-.tags-expo .tags-expo-section ul li:hover{
-    list-style-type:disc;
-    padding:0 .5rem
-}
-.tags-expo .tags-expo-section a{
-    text-decoration:none
-}
-.tags-expo .tags-expo-section .post-date{
-    display:inline-block;
-    font-size:80%;
-    color:#9a9a9a;
-    margin:0;
-    padding:0
+.tags-expo .tags-expo-section a {
+  text-decoration: none;
 }
 
+.tags-expo .tags-expo-section .post-date {
+  display: inline-block;
+  font-size: 80%;
+  color: $gray;
+  margin: 0;
+  padding: 0;
+}
 
 .scrollUpButton {
- display: none;
- opacity: 0.6;
- position: fixed;
- bottom: 10px;
- right: 10px;
- display: none;
- background: #000;
- color: #fff;
- font-size: 1.5em;
- text-decoration: none;
- padding: 5px 10px 5px 10px;
+  display: none;
+  opacity: 0.7;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: $navy;
+  color: $white;
+  font-size: 1.2em;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: opacity 0.2s ease;
+  z-index: 100;
 }
-.scrollUpButton:hover, .scrollUpButton:focus {
- outline: none;
- text-decoration: none;
- color: #fff;
- opacity: 1;
+
+.scrollUpButton:hover,
+.scrollUpButton:focus {
+  outline: none;
+  text-decoration: none;
+  color: $white;
+  opacity: 1;
 }
+
 .icon-up:before {
-    content: "\21E7";
+  content: "\21E7";
 }
 

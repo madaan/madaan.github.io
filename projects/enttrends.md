@@ -5,9 +5,9 @@ layout: page
 
 ## Background
 
-In my final year at IITB, I took a course in Enterpreneurship offered by the school of management (we were required to take one course from outside the department). The course was a lot of fun, and we were free to do whatever we want for our final project. 
+In my final year at IITB, I took a course in Entrepreneurship offered by the school of management (we were required to take one course from outside the department). The course was a lot of fun, and we were free to do whatever we want for our final project. 
 
-I decided to verify if some of the assumed trends and biases related to Enterpreneurship were actually backed by data.
+I decided to verify if some of the assumed trends and biases related to Entrepreneurship were actually backed by data.
 
 
 ## Interesting Findings:
@@ -21,7 +21,7 @@ We next plot the frequency of phrases in books (using Google n-gram corpus) wher
 We also plot "young entrepreneur", "old entrepreneur", "male entrepreneur" and "women entrepreneur". As figure 6 shows, books talk about "young entrepreneur" more than "old entrepreneur", which is somewhat expected. The high frequency of the phrase "woman entrepreneur" can perhaps be explained by noting that there has been a rise in gender equality movements around the globe in the recent times. The term "male entrepreneur" is quite unnatural and uncommon, which is likely the reason for its low frequency.
 
 
-- Enterpreneurship as a career
+- Entrepreneurship as a career
 
 
 

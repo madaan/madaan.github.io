@@ -66,5 +66,12 @@
       </div>
     </div>
 
+    <script>
+    document.addEventListener('click', function(e) {
+      if (e.target.closest('.profile-photo')) {
+        window.location.href = '{{ site.baseurl }}/inference-compute';
+      }
+    });
+    </script>
   </body>
 </html>

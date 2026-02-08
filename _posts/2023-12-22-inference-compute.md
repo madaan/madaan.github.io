@@ -10,7 +10,7 @@ blog: "true"
 *The next generation of AI systems for reasoning will likely rely on a powerful base language model at its core, with a number of inference time techniques that make it more useful.*
 
 ### Next token prediction is awesome
-I'm in the _next token-prediction is awesome_ camp. I think despite whatever the naysayers say, the ability to coherently complete a series of tokens grounded in some context is highly non-trivial, and I think humans do it all the time as well. While chatgpt helped in making debates around this stuff mainstream, it has been going around for a whle now. Here is a quote from .
+I'm in the _next token-prediction is awesome_ camp. I think despite whatever the naysayers say, the ability to coherently complete a series of tokens grounded in some context is highly non-trivial, and I think humans do it all the time as well. While chatgpt helped in making debates around this stuff mainstream, it has been going around for a while now. Here is a quote from .
 
 ### Next token prediction is not enough
 
