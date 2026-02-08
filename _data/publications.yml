@@ -1,3 +1,44 @@
+- title: "Automated High-Level Code Optimization for Warehouse Performance"
+  year: 2025
+  authors: "Alexander Shypula, Aman Madaan, Yimeng Zeng, Uri Alon, Jacob R. Gardner, Milad Hashemi, Graham Neubig, Parthasarathy Ranganathan, Osbert Bastani, Amir Yazdanbakhsh"
+  conference: "IEEE Micro 2025"
+  org: IEEE
+  abstract: "We present a framework that harnesses large language models (LLMs) for high-level program optimization. We curate a dataset of competitive C++ submissions with extensive unit tests to capture performance-improving patterns, and develop an evaluation harness using the gem5 full-system simulator to mitigate performance measurement variability. Our results show a mean speedup of 6.86x, outperforming the average human optimization of 3.66x. This work enables autonomously applying performance-improving edits across billions of lines of code in Google data centers."
+  pdf: "https://ieeexplore.ieee.org/document/11082529"
+
+- title: "AutoMix: Automatically Mixing Language Models"
+  year: 2024
+  authors: "Pranjal Aggarwal*, Aman Madaan*, Ankit Anand, Srividya Pranavi Potharaju, Swaroop Mishra, Pei Zhou, Aditya Gupta, Dheeraj Rajagopal, Karthik Kappaganthu, Yiming Yang, Shyam Upadhyay, Manaal Faruqui, Mausam"
+  conference: "NeurIPS 2024"
+  org: NeurIPS
+  code: https://github.com/automix-llm/automix
+  abstract: "Large language models (LLMs) are now available in various sizes and configurations from cloud API providers. While this diversity offers potential for cost-effective AI solutions, navigating the options to find the best balance between performance and cost remains challenging. We present AutoMix, an approach that strategically routes queries to larger LMs based on the approximate correctness of outputs from a smaller LM. Central to AutoMix are two key technical contributions: a few-shot self-verification mechanism that estimates the reliability of its own outputs without requiring extensive training, and a POMDP-based router that effectively selects an appropriately sized model based on answer confidence. Experiments across five language models and five challenging datasets show that AutoMix consistently surpasses strong baselines, reducing computational cost by over 50% for comparable performance."
+  pdf: "https://arxiv.org/pdf/2310.12963.pdf"
+
+- title: "Synatra: Turning Indirect Knowledge into Direct Demonstrations for Digital Agents at Scale"
+  year: 2024
+  authors: "Tianyue Ou, Frank F. Xu, Aman Madaan, Jiarui Liu, Robert Lo, Abishek Sridhar, Sudipta Sengupta, Dan Roth, Graham Neubig, Shuyan Zhou"
+  conference: "NeurIPS 2024"
+  org: NeurIPS
+  abstract: "Large language models show promise as digital agents, but the lack of large-scale, direct demonstrations for digital tasks remains a bottleneck. Obtaining supervised data from humans is costly and automatic data collection is complex, but abundant indirect knowledge exists such as online tutorials created for human consumption. We propose Synatra, which transforms indirect knowledge into direct supervision at scale. Using 100k synthetically-created demonstrations to finetune a 7B CodeLlama model, we show it surpasses comparable models on three web-based task benchmarks (Mind2Web, MiniWoB++, and WebArena), while synthetic demonstrations prove to be only 3% the cost of human demonstrations."
+  pdf: "https://arxiv.org/pdf/2409.15637.pdf"
+
+- title: "In-Context Principle Learning from Mistakes"
+  year: 2024
+  authors: "Tianjun Zhang*, Aman Madaan*, Luyu Gao, Steven Zheng, Swaroop Mishra, Yiming Yang, Niket Tandon, Uri Alon"
+  conference: "ICML 2024"
+  org: ICML
+  abstract: "In-context learning (ICL) has shown impressive results in a wide range of tasks, but its performance is sensitive to the choice of few-shot examples. We propose Learning Principles (LEAP): given a few examples, we intentionally induce the model to make mistakes, then reflect on these mistakes to learn explicit task-specific principles that help solve similar problems and avoid common errors. We prompt the model to answer unseen test questions using the original few-shot examples and the learned general principles. We evaluate LEAP on a wide range of benchmarks, including multi-hop question answering (Hotpot QA), textual QA (DROP), Big-Bench Hard reasoning, and math problems (GSM8K and MATH), showing consistent improvements."
+  pdf: "https://arxiv.org/pdf/2402.05403.pdf"
+
+- title: "Program-Aided Reasoners (Better) Know What They Know"
+  year: 2024
+  authors: "Anubha Kabra, Sanketh Rangreji, Yash Mathur, Aman Madaan, Emmy Liu, Graham Neubig"
+  conference: "NAACL 2024"
+  org: NAACL
+  abstract: "Prior work has compared the calibration of Program Aided Language Models (PAL) and text-based Chain-of-thought (COT) prompting techniques. We examine program-aided reasoning where large language models (LLMs) are combined with programs written in Python, comparing calibration over 5 datasets and 2 model types: LLaMA models and OpenAI models. Our results indicate that PAL leads to improved calibration in 75% of the instances, suggesting that program-aided reasoners better know what they know."
+  pdf: "https://arxiv.org/pdf/2311.09553.pdf"
+
 - title: "Learning Performance Improving Code Edits"
   year: 2024
   authors: "Alexander Shypula*, Aman Madaan*, Yimeng Zhang, Uri Alon, Milad Hashemi, Parthasarathy Ranganathan, Yiming Yang, Graham Neubig, Amir Yazdanbakhsh"
