@@ -3,12 +3,6 @@ layout: page
 permalink: /notes/
 ---
 
- <head>
- <link rel="stylesheet" href="/assets/css/main.css">
-<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
-<script src="/assets/js/common.js"></script>
- </head>
-
 <div class="posts">
   {% for post in site.posts %}
     {%if post.scribble != null %}

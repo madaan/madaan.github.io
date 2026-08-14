@@ -2,12 +2,9 @@
 layout: page
 permalink: /projects/
 ---
- <head>
- <link rel="stylesheet" href="/assets/css/main.css">
 <script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="/assets/js/common.js"></script>
- </head>
- <article class="post-content publications clearfix">
+<article class="post-content publications clearfix">
 <div id='toTop'></div>
 <h2 id="publications">Projects</h2>
 <p>This page lists some interesting projects done before mid-2019. Some of these projects have a project page which contains more details. </p>
